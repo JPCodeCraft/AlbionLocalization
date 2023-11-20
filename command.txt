@@ -1,0 +1,6 @@
+jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@ITEMS_\")) | .[\"@tuid\"] |= sub(\"^@ITEMS_\"; \"\")]" localization.json > items_localization.json & jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_SHOPCATEGORY_\"; \"\")]" localization.json > shopcategory_localization.json & jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\"; \"\")]" localization.json > shopsubcategory_localization.json & jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@DESTINYBOARD_\")) | .[\"@tuid\"] |= sub(\"^@DESTINYBOARD_\"; \"\")]" localization.json > destinyboard_localization.json
+
+
+https://jqlang.github.io/jq/download/
+
+https://github.com/ao-data/ao-bin-dumps/blob/master/localization.json

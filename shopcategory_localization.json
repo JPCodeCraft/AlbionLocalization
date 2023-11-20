@@ -1,0 +1,1887 @@
+[
+  {
+    "@tuid": "ACCESSORIES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Accessories"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Accessoires"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Accessoires"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Аксессуары"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Akcesoria"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Accesorios"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Acessórios"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Accessori"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "配件"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "장신구"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "付属品"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "配件"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Aksesori"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Aksesuarlar"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "الملحقات"
+      }
+    ]
+  },
+  {
+    "@tuid": "ARMOR",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Armor"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rüstung"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Armure"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Броня"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Zbroja"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Armadura"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Armadura"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Armature"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "护甲"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "갑옷"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "アーマー"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "護甲"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Armor"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Zırh"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "درع"
+      }
+    ]
+  },
+  {
+    "@tuid": "ARTEFACTS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Artifact"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Artefakte"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Artefact"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Артефакты"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Artefakt"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Artefacto"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Artefato"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Manufatti"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "神器"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "아티팩트"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "アーティファクト"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "神器"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Artefak"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Eser"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "قطعة أثرية"
+      }
+    ]
+  },
+  {
+    "@tuid": "CITYRESOURCES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "City Resources"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Stadtressourcen"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Ressources de ville"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Ресурсы города"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Miejskie Surowce"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Recursos de ciudad"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Recursos da cidade"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Risorse della città"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "城市资源"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "도시 자원"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "都市資源"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "城市資源"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Sumber Daya Kota"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Şehir Kaynakları"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "موارد مدينة"
+      }
+    ]
+  },
+  {
+    "@tuid": "CONSUMABLES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Consumable"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Verbrauchsgüter"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Consommable"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Расходники"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Zużywalne"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Consumible"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Consumível"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Consumabili"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "消耗品"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "소비 아이템"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "消耗品"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "消耗品"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Konsumsi"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Tüketilebilir"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "عنصر استهلاكي"
+      }
+    ]
+  },
+  {
+    "@tuid": "FARMABLES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Farmable"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Agrargegenstände"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Objet de culture"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Выращивание"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Uprawowe"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Cultivo"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Cultivável"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Raccoglibili nel mondo"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "农耕品"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "경작 아이템"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "農園品"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "農耕用品"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Budidaya"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Yetiştirilebilir"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "عنصر زراعة"
+      }
+    ]
+  },
+  {
+    "@tuid": "FURNITURE",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Furniture"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Möbel"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Mobilier"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Мебель"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Meble"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Mueble"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Mobília"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Arredi"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "家具"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "가구"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "家具"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "家具"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Furnitur"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Mobilya"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "أثاث"
+      }
+    ]
+  },
+  {
+    "@tuid": "GATHERERGEAR",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Gathering Gear"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Sammelausrüstung"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Équipement de récolte"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Собирательство"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Stroje zbieracza"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Equipo de recolección"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Equipamento de coleta"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Equipaggiamento per raccolta"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "采集装备"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "채집 장비"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "装備の収集"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "採集裝備"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Alat Mengumpulkan"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Toplayıcılık Teçhizatı"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "عتاد جمع"
+      }
+    ]
+  },
+  {
+    "@tuid": "LABOURERS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Laborers"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Arbeiter"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Travailleurs"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Работники"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Pracownicy"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Trabajadores"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Trabalhadores"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Lavoratori"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "工人"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "일꾼"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "労働者"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "工人"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Pekerja"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "İşçiler"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "عمال"
+      }
+    ]
+  },
+  {
+    "@tuid": "LUXURYGOODS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Luxury Goods"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Luxuswaren"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Biens de luxe"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Роскошь"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Dobra Luksusowe"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Bienes de lujo"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Bens de luxo"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Beni di lusso"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "奢侈品"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "명품"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "高級品"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "奢侈品"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Barang Mewah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Lüks Mallar"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "سلع فاخرة"
+      }
+    ]
+  },
+  {
+    "@tuid": "MAGIC",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Magic"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Magisch"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Magique"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Магия"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Magia"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Magia"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Magia"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Magia"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "法术武器"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "마법"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "魔法"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "魔法"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Sihir"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Sihir"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "سحر"
+      }
+    ]
+  },
+  {
+    "@tuid": "MATERIALS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Materials"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Materialien"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Matériaux"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Материалы"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Materiały"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Materiales"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Materiais"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Materiali"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "基本材料"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "재료"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "素材"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "材料"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Material"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Malzemeler"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "المواد"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_CHICKEN",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Chicken"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Huhn"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Poulet cru"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Куриное мясо"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowy kurczak"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de pollo"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Galinha Crua"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne di pollo cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "鸡肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 닭고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生の鶏肉"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生雞肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Ayam Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Tavuk Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "دجاج نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_COW",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Beef"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Rind"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Bœuf cru"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Говядина"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowa wołowina"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de ternera"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Carne Crua"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne di manzo cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "牛肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 쇠고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生の牛肉"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生牛肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Daging Sapi Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Sığır Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "لحم بقر نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_GOAT",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Goat"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Ziegenfleisch"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Chèvre crue"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Козлятина"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowe mięso z kozy"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de cabra"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Cabra Crua"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne di capra cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "山羊肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 염소고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生のヤギ肉"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生山羊肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Daging Kambing Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Keçi Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "لحم ماعز نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_GOOSE",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Goose"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Gänsefleisch"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Oie crue"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Гусятина"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowe mięso z gęsi"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de ganso"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Ganso Cru"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne d'oca cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "鹅肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 거위고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生のガチョウ肉"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生鵝肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Daging Angsa Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Kaz Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "لحم أوز نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_PIG",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Pork"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Schweinefleisch"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Porc cru"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Свинина"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowa Wieprzowina"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de cerdo"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Porco Cru"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne di maiale cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "猪肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 돼지고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生の豚肉"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生豬肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Daging Babi Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Domuz Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "لحم خنزير نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MEAT_SHEEP",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Raw Mutton"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Rohes Hammelfleisch"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Mouton cru"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Баранина"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowa baranina"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Carne de carnero"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Carneiro Cru"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Carne di montone cruda"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "绵羊肉"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생 양고기"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "生のマトン"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "生綿羊肉"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Daging Domba Mentah"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Çiğ Koyun Eti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "لحم ضأن نيء"
+      }
+    ]
+  },
+  {
+    "@tuid": "MELEE",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Melee"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Nahkampf"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Mêlée"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Ближний бой"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Wręcz"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Cuerpo a cuerpo"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "C. a C."
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Mischia"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "近战武器"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "근접"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "近接"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "近戰武器"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Jarak Dekat"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Yakın Dövüş"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "سلاح اشتباك"
+      }
+    ]
+  },
+  {
+    "@tuid": "MOUNTS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Mount"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Reittier"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Monture"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Транспорт"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Wierzchowiec"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Montura"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Montaria"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Cavalcature"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "坐骑"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "탈것"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "騎獣"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "坐騎"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Tunggangan"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Binek"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "مطية"
+      }
+    ]
+  },
+  {
+    "@tuid": "OFFHAND",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Off-Hand"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Zweithand"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Arme secondaire"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Левая рука"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Druga ręka"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Arma secundaria"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Mão sec."
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Mano secondaria"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "副手"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "보조"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "オフハンド"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "副手武器"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Off-Hand"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "İkincil"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "سلاح احتياطي"
+      }
+    ]
+  },
+  {
+    "@tuid": "OTHER",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Other"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Sonstige"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Autre"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Другое"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Inne"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Otros"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Outros"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Altro"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "其他"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "기타"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "その他"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "其他"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Lainnya"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Diğer"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "أخرى"
+      }
+    ]
+  },
+  {
+    "@tuid": "PRODUCTS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Product"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Produkte"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Produit"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Продукты"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Produkt"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Producto"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Produto"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Prodotti"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "制造品"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "생산"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "製品"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "產品"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Produk"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Ürün"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "المنتج"
+      }
+    ]
+  },
+  {
+    "@tuid": "RANGED",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Ranged"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Fernkampf"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "À distance"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Дальний бой"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Dystansowe"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "A distancia"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Distância"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Distanza"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "远程武器"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "원거리"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "長射程"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "遠程武器"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Jarak Jauh"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Menzilli"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "سلاح بعيد المدى"
+      }
+    ]
+  },
+  {
+    "@tuid": "RESOURCES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Resource"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Ressourcen"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Ressource"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Ресурсы"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Surowiec"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Recurso"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Recurso"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Risorse"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "基础资源"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "자원"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "資源"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "資源"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Sumber Daya"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Kaynak"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "مورد"
+      }
+    ]
+  },
+  {
+    "@tuid": "SKILLBOOKS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Tomes"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Folianten"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Tomes"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Книги"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Tomiska"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Tomos"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Tomos"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Tomi"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "书卷"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "서적"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "書"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "典籍"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Kitab"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Kitaplar"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "مجلدات"
+      }
+    ]
+  },
+  {
+    "@tuid": "TOKEN",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Token"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Abzeichen"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Jeton"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Жетон"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Talon"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Token"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Ficha"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Gettoni"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "代币"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "토큰"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "トークン"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "徽章"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Token"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Jeton"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "عملة رمزية"
+      }
+    ]
+  },
+  {
+    "@tuid": "TOOLS",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Tool"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Werkzeuge"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Outil"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Инструменты"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Narzędzie"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Herramienta"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Ferramenta"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Attrezzi"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "工具"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "도구"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "道具"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "工具"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Peralatan"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Alet"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "أداة"
+      }
+    ]
+  },
+  {
+    "@tuid": "TROPHIES",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Trophies"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Trophäen"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Trophées"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Трофеи"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Trofea"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Trofeos"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Troféus"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Trofei"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "战利品装饰"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "트로피"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "トロフィー"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "戰利品"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Trofi"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Hatıralar"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "جوائز"
+      }
+    ]
+  }
+]
