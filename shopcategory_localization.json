@@ -1,6 +1,6 @@
 [
   {
-    "@tuid": "ACCESSORIES",
+    "@tuid": "SHOPCATEGORY_ACCESSORIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "@tuid": "ARMOR",
+    "@tuid": "SHOPCATEGORY_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "@tuid": "ARTEFACTS",
+    "@tuid": "SHOPCATEGORY_ARTEFACTS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "@tuid": "CITYRESOURCES",
+    "@tuid": "SHOPCATEGORY_CITYRESOURCES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "@tuid": "CONSUMABLES",
+    "@tuid": "SHOPCATEGORY_CONSUMABLES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "@tuid": "FARMABLES",
+    "@tuid": "SHOPCATEGORY_FARMABLES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "@tuid": "FURNITURE",
+    "@tuid": "SHOPCATEGORY_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -455,7 +455,7 @@
     ]
   },
   {
-    "@tuid": "GATHERERGEAR",
+    "@tuid": "SHOPCATEGORY_GATHERERGEAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "@tuid": "LABOURERS",
+    "@tuid": "SHOPCATEGORY_LABOURERS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -585,7 +585,7 @@
     ]
   },
   {
-    "@tuid": "LUXURYGOODS",
+    "@tuid": "SHOPCATEGORY_LUXURYGOODS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -650,7 +650,7 @@
     ]
   },
   {
-    "@tuid": "MAGIC",
+    "@tuid": "SHOPCATEGORY_MAGIC",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -715,7 +715,7 @@
     ]
   },
   {
-    "@tuid": "MATERIALS",
+    "@tuid": "SHOPCATEGORY_MATERIALS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_CHICKEN",
+    "@tuid": "SHOPCATEGORY_MEAT_CHICKEN",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -845,7 +845,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_COW",
+    "@tuid": "SHOPCATEGORY_MEAT_COW",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -910,7 +910,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_GOAT",
+    "@tuid": "SHOPCATEGORY_MEAT_GOAT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -975,7 +975,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_GOOSE",
+    "@tuid": "SHOPCATEGORY_MEAT_GOOSE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1040,7 +1040,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_PIG",
+    "@tuid": "SHOPCATEGORY_MEAT_PIG",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1105,7 +1105,7 @@
     ]
   },
   {
-    "@tuid": "MEAT_SHEEP",
+    "@tuid": "SHOPCATEGORY_MEAT_SHEEP",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "@tuid": "MELEE",
+    "@tuid": "SHOPCATEGORY_MELEE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1235,7 +1235,7 @@
     ]
   },
   {
-    "@tuid": "MOUNTS",
+    "@tuid": "SHOPCATEGORY_MOUNTS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1300,7 +1300,7 @@
     ]
   },
   {
-    "@tuid": "OFFHAND",
+    "@tuid": "SHOPCATEGORY_OFFHAND",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1365,7 +1365,7 @@
     ]
   },
   {
-    "@tuid": "OTHER",
+    "@tuid": "SHOPCATEGORY_OTHER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1430,7 +1430,7 @@
     ]
   },
   {
-    "@tuid": "PRODUCTS",
+    "@tuid": "SHOPCATEGORY_PRODUCTS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1495,7 +1495,7 @@
     ]
   },
   {
-    "@tuid": "RANGED",
+    "@tuid": "SHOPCATEGORY_RANGED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1560,7 +1560,7 @@
     ]
   },
   {
-    "@tuid": "RESOURCES",
+    "@tuid": "SHOPCATEGORY_RESOURCES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1625,7 +1625,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOKS",
+    "@tuid": "SHOPCATEGORY_SKILLBOOKS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1690,7 +1690,7 @@
     ]
   },
   {
-    "@tuid": "TOKEN",
+    "@tuid": "SHOPCATEGORY_TOKEN",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1755,7 +1755,7 @@
     ]
   },
   {
-    "@tuid": "TOOLS",
+    "@tuid": "SHOPCATEGORY_TOOLS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1820,7 +1820,7 @@
     ]
   },
   {
-    "@tuid": "TROPHIES",
+    "@tuid": "SHOPCATEGORY_TROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",

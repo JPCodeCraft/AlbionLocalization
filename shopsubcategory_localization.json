@@ -1,6 +1,6 @@
 [
   {
-    "@tuid": "ANIMALS",
+    "@tuid": "SHOPSUBCATEGORY_ANIMALS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "@tuid": "ANY",
+    "@tuid": "SHOPSUBCATEGORY_ANY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "@tuid": "ARCANESTAFF",
+    "@tuid": "SHOPSUBCATEGORY_ARCANESTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -195,7 +195,7 @@
     ]
   },
   {
-    "@tuid": "ARENASIGILS",
+    "@tuid": "SHOPSUBCATEGORY_ARENASIGILS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "@tuid": "ARMOR_ARTEFACT",
+    "@tuid": "SHOPSUBCATEGORY_ARMOR_ARTEFACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -325,7 +325,7 @@
     ]
   },
   {
-    "@tuid": "ARMOREDHORSE",
+    "@tuid": "SHOPSUBCATEGORY_ARMOREDHORSE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -390,7 +390,7 @@
     ]
   },
   {
-    "@tuid": "ARMORTROPHIES",
+    "@tuid": "SHOPSUBCATEGORY_ARMORTROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -455,7 +455,7 @@
     ]
   },
   {
-    "@tuid": "ARMORTROPHIESCRAFTED",
+    "@tuid": "SHOPSUBCATEGORY_ARMORTROPHIESCRAFTED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -520,7 +520,7 @@
     ]
   },
   {
-    "@tuid": "AXE",
+    "@tuid": "SHOPSUBCATEGORY_AXE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -585,7 +585,7 @@
     ]
   },
   {
-    "@tuid": "BAG",
+    "@tuid": "SHOPSUBCATEGORY_BAG",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -650,7 +650,7 @@
     ]
   },
   {
-    "@tuid": "BANNER",
+    "@tuid": "SHOPSUBCATEGORY_BANNER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -715,7 +715,7 @@
     ]
   },
   {
-    "@tuid": "BATTLE_MOUNT",
+    "@tuid": "SHOPSUBCATEGORY_BATTLE_MOUNT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "@tuid": "BATTLEVAULT",
+    "@tuid": "SHOPSUBCATEGORY_BATTLEVAULT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -845,7 +845,7 @@
     ]
   },
   {
-    "@tuid": "BEASTHEART",
+    "@tuid": "SHOPSUBCATEGORY_BEASTHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -910,7 +910,7 @@
     ]
   },
   {
-    "@tuid": "BED",
+    "@tuid": "SHOPSUBCATEGORY_BED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -975,7 +975,7 @@
     ]
   },
   {
-    "@tuid": "BELT",
+    "@tuid": "SHOPSUBCATEGORY_BELT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1040,7 +1040,7 @@
     ]
   },
   {
-    "@tuid": "BLACKHEART",
+    "@tuid": "SHOPSUBCATEGORY_BLACKHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1105,7 +1105,7 @@
     ]
   },
   {
-    "@tuid": "BLOOD",
+    "@tuid": "SHOPSUBCATEGORY_BLOOD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "@tuid": "BODYARMOR",
+    "@tuid": "SHOPSUBCATEGORY_BODYARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1235,7 +1235,7 @@
     ]
   },
   {
-    "@tuid": "BONE",
+    "@tuid": "SHOPSUBCATEGORY_BONE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1300,7 +1300,7 @@
     ]
   },
   {
-    "@tuid": "BONUSITEM",
+    "@tuid": "SHOPSUBCATEGORY_BONUSITEM",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1365,7 +1365,7 @@
     ]
   },
   {
-    "@tuid": "BOOK",
+    "@tuid": "SHOPSUBCATEGORY_BOOK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1430,7 +1430,7 @@
     ]
   },
   {
-    "@tuid": "BOOKTROPHIES",
+    "@tuid": "SHOPSUBCATEGORY_BOOKTROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1495,7 +1495,7 @@
     ]
   },
   {
-    "@tuid": "BOOKTROPHIESCRAFTED",
+    "@tuid": "SHOPSUBCATEGORY_BOOKTROPHIESCRAFTED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1560,7 +1560,7 @@
     ]
   },
   {
-    "@tuid": "BOW",
+    "@tuid": "SHOPSUBCATEGORY_BOW",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1625,21 +1625,21 @@
     ]
   },
   {
-    "@tuid": "BRIDGEWATCH",
+    "@tuid": "SHOPSUBCATEGORY_BRIDGEWATCH",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Bridgewatch"
     }
   },
   {
-    "@tuid": "CAERLEON",
+    "@tuid": "SHOPSUBCATEGORY_CAERLEON",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Caerleon"
     }
   },
   {
-    "@tuid": "CAPE",
+    "@tuid": "SHOPSUBCATEGORY_CAPE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1704,7 +1704,7 @@
     ]
   },
   {
-    "@tuid": "CHAIR",
+    "@tuid": "SHOPSUBCATEGORY_CHAIR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1769,7 +1769,7 @@
     ]
   },
   {
-    "@tuid": "CHEST",
+    "@tuid": "SHOPSUBCATEGORY_CHEST",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1834,7 +1834,7 @@
     ]
   },
   {
-    "@tuid": "CLOTH",
+    "@tuid": "SHOPSUBCATEGORY_CLOTH",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1899,7 +1899,7 @@
     ]
   },
   {
-    "@tuid": "CLOTH_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_CLOTH_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -1964,7 +1964,7 @@
     ]
   },
   {
-    "@tuid": "CLOTH_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_CLOTH_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2029,7 +2029,7 @@
     ]
   },
   {
-    "@tuid": "CLOTH_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_CLOTH_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2094,7 +2094,7 @@
     ]
   },
   {
-    "@tuid": "COOKED",
+    "@tuid": "SHOPSUBCATEGORY_COOKED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2159,7 +2159,7 @@
     ]
   },
   {
-    "@tuid": "COUGAR",
+    "@tuid": "SHOPSUBCATEGORY_COUGAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2224,7 +2224,7 @@
     ]
   },
   {
-    "@tuid": "CROSSBOW",
+    "@tuid": "SHOPSUBCATEGORY_CROSSBOW",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2289,7 +2289,7 @@
     ]
   },
   {
-    "@tuid": "CRYSTALLEAGUE",
+    "@tuid": "SHOPSUBCATEGORY_CRYSTALLEAGUE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2354,7 +2354,7 @@
     ]
   },
   {
-    "@tuid": "CURSESTAFF",
+    "@tuid": "SHOPSUBCATEGORY_CURSESTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2419,7 +2419,7 @@
     ]
   },
   {
-    "@tuid": "DAGGER",
+    "@tuid": "SHOPSUBCATEGORY_DAGGER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2484,7 +2484,7 @@
     ]
   },
   {
-    "@tuid": "DECORATION_FURNITURE",
+    "@tuid": "SHOPSUBCATEGORY_DECORATION_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2549,7 +2549,7 @@
     ]
   },
   {
-    "@tuid": "DEMOLITIONHAMMER",
+    "@tuid": "SHOPSUBCATEGORY_DEMOLITIONHAMMER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2614,7 +2614,7 @@
     ]
   },
   {
-    "@tuid": "DESTRUCTIONMARK",
+    "@tuid": "SHOPSUBCATEGORY_DESTRUCTIONMARK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2679,7 +2679,7 @@
     ]
   },
   {
-    "@tuid": "DIREBEAR",
+    "@tuid": "SHOPSUBCATEGORY_DIREBEAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2744,7 +2744,7 @@
     ]
   },
   {
-    "@tuid": "DIREBOAR",
+    "@tuid": "SHOPSUBCATEGORY_DIREBOAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2809,7 +2809,7 @@
     ]
   },
   {
-    "@tuid": "DIREWOLF",
+    "@tuid": "SHOPSUBCATEGORY_DIREWOLF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2874,7 +2874,7 @@
     ]
   },
   {
-    "@tuid": "ESSENCE",
+    "@tuid": "SHOPSUBCATEGORY_ESSENCE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -2939,7 +2939,7 @@
     ]
   },
   {
-    "@tuid": "EVENT",
+    "@tuid": "SHOPSUBCATEGORY_EVENT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3004,7 +3004,7 @@
     ]
   },
   {
-    "@tuid": "FARMING",
+    "@tuid": "SHOPSUBCATEGORY_FARMING",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3069,7 +3069,7 @@
     ]
   },
   {
-    "@tuid": "FIBER",
+    "@tuid": "SHOPSUBCATEGORY_FIBER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3134,7 +3134,7 @@
     ]
   },
   {
-    "@tuid": "FIBERCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_FIBERCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3199,7 +3199,7 @@
     ]
   },
   {
-    "@tuid": "FIBERGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_FIBERGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3264,7 +3264,7 @@
     ]
   },
   {
-    "@tuid": "FIBERGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_FIBERGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3329,7 +3329,7 @@
     ]
   },
   {
-    "@tuid": "FIBERGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_FIBERGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3394,7 +3394,7 @@
     ]
   },
   {
-    "@tuid": "FIBERGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_FIBERGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3459,7 +3459,7 @@
     ]
   },
   {
-    "@tuid": "FIBERTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_FIBERTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3524,7 +3524,7 @@
     ]
   },
   {
-    "@tuid": "FIRESTAFF",
+    "@tuid": "SHOPSUBCATEGORY_FIRESTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3589,7 +3589,7 @@
     ]
   },
   {
-    "@tuid": "FISH",
+    "@tuid": "SHOPSUBCATEGORY_FISH",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3654,7 +3654,7 @@
     ]
   },
   {
-    "@tuid": "FISHGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_FISHGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3719,7 +3719,7 @@
     ]
   },
   {
-    "@tuid": "FISHGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_FISHGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3784,7 +3784,7 @@
     ]
   },
   {
-    "@tuid": "FISHGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_FISHGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3849,7 +3849,7 @@
     ]
   },
   {
-    "@tuid": "FISHGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_FISHGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3914,7 +3914,7 @@
     ]
   },
   {
-    "@tuid": "FISHING",
+    "@tuid": "SHOPSUBCATEGORY_FISHING",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -3979,7 +3979,7 @@
     ]
   },
   {
-    "@tuid": "FISHINGBAIT",
+    "@tuid": "SHOPSUBCATEGORY_FISHINGBAIT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4044,7 +4044,7 @@
     ]
   },
   {
-    "@tuid": "FISHINGCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_FISHINGCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4109,7 +4109,7 @@
     ]
   },
   {
-    "@tuid": "FISHTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_FISHTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4174,7 +4174,7 @@
     ]
   },
   {
-    "@tuid": "FLAG",
+    "@tuid": "SHOPSUBCATEGORY_FLAG",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4239,7 +4239,7 @@
     ]
   },
   {
-    "@tuid": "FOOD",
+    "@tuid": "SHOPSUBCATEGORY_FOOD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4304,14 +4304,14 @@
     ]
   },
   {
-    "@tuid": "FORTSTERLING",
+    "@tuid": "SHOPSUBCATEGORY_FORTSTERLING",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Fort Sterling"
     }
   },
   {
-    "@tuid": "FRAGMENT",
+    "@tuid": "SHOPSUBCATEGORY_FRAGMENT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4376,7 +4376,7 @@
     ]
   },
   {
-    "@tuid": "FROSTSTAFF",
+    "@tuid": "SHOPSUBCATEGORY_FROSTSTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4441,7 +4441,7 @@
     ]
   },
   {
-    "@tuid": "GEM",
+    "@tuid": "SHOPSUBCATEGORY_GEM",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4506,7 +4506,7 @@
     ]
   },
   {
-    "@tuid": "GEMHAMMER",
+    "@tuid": "SHOPSUBCATEGORY_GEMHAMMER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4571,7 +4571,7 @@
     ]
   },
   {
-    "@tuid": "GENERALTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_GENERALTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4636,7 +4636,7 @@
     ]
   },
   {
-    "@tuid": "GIANTSTAG",
+    "@tuid": "SHOPSUBCATEGORY_GIANTSTAG",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4701,7 +4701,7 @@
     ]
   },
   {
-    "@tuid": "HALBERD",
+    "@tuid": "SHOPSUBCATEGORY_HALBERD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4766,7 +4766,7 @@
     ]
   },
   {
-    "@tuid": "HAMMER",
+    "@tuid": "SHOPSUBCATEGORY_HAMMER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4831,7 +4831,7 @@
     ]
   },
   {
-    "@tuid": "HARP",
+    "@tuid": "SHOPSUBCATEGORY_HARP",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4896,7 +4896,7 @@
     ]
   },
   {
-    "@tuid": "HEAL",
+    "@tuid": "SHOPSUBCATEGORY_HEAL",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -4961,7 +4961,7 @@
     ]
   },
   {
-    "@tuid": "HELMET",
+    "@tuid": "SHOPSUBCATEGORY_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5026,7 +5026,7 @@
     ]
   },
   {
-    "@tuid": "HERETIC_FURNITURE",
+    "@tuid": "SHOPSUBCATEGORY_HERETIC_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5091,7 +5091,7 @@
     ]
   },
   {
-    "@tuid": "HIDE",
+    "@tuid": "SHOPSUBCATEGORY_HIDE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5156,7 +5156,7 @@
     ]
   },
   {
-    "@tuid": "HIDECONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_HIDECONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5221,7 +5221,7 @@
     ]
   },
   {
-    "@tuid": "HIDEGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_HIDEGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5286,7 +5286,7 @@
     ]
   },
   {
-    "@tuid": "HIDEGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_HIDEGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5351,7 +5351,7 @@
     ]
   },
   {
-    "@tuid": "HIDEGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_HIDEGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5416,7 +5416,7 @@
     ]
   },
   {
-    "@tuid": "HIDEGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_HIDEGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5481,7 +5481,7 @@
     ]
   },
   {
-    "@tuid": "HIDETROPHY",
+    "@tuid": "SHOPSUBCATEGORY_HIDETROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5546,7 +5546,7 @@
     ]
   },
   {
-    "@tuid": "HOLYSTAFF",
+    "@tuid": "SHOPSUBCATEGORY_HOLYSTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5611,7 +5611,7 @@
     ]
   },
   {
-    "@tuid": "HORN",
+    "@tuid": "SHOPSUBCATEGORY_HORN",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5676,7 +5676,7 @@
     ]
   },
   {
-    "@tuid": "HUNTERCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_HUNTERCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5741,7 +5741,7 @@
     ]
   },
   {
-    "@tuid": "JEWEL",
+    "@tuid": "SHOPSUBCATEGORY_JEWEL",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5806,7 +5806,7 @@
     ]
   },
   {
-    "@tuid": "JOURNAL",
+    "@tuid": "SHOPSUBCATEGORY_JOURNAL",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5871,7 +5871,7 @@
     ]
   },
   {
-    "@tuid": "KEEPER_FURNITURE",
+    "@tuid": "SHOPSUBCATEGORY_KEEPER_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -5936,7 +5936,7 @@
     ]
   },
   {
-    "@tuid": "KILL_EMOTES",
+    "@tuid": "SHOPSUBCATEGORY_KILL_EMOTES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6001,7 +6001,7 @@
     ]
   },
   {
-    "@tuid": "KNUCKLES",
+    "@tuid": "SHOPSUBCATEGORY_KNUCKLES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6066,7 +6066,7 @@
     ]
   },
   {
-    "@tuid": "LARGECROSSBOW",
+    "@tuid": "SHOPSUBCATEGORY_LARGECROSSBOW",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6131,7 +6131,7 @@
     ]
   },
   {
-    "@tuid": "LEATHER",
+    "@tuid": "SHOPSUBCATEGORY_LEATHER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6196,7 +6196,7 @@
     ]
   },
   {
-    "@tuid": "LEATHER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_LEATHER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6261,7 +6261,7 @@
     ]
   },
   {
-    "@tuid": "LEATHER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_LEATHER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6326,7 +6326,7 @@
     ]
   },
   {
-    "@tuid": "LEATHER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_LEATHER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6391,14 +6391,14 @@
     ]
   },
   {
-    "@tuid": "LYMHURST",
+    "@tuid": "SHOPSUBCATEGORY_LYMHURST",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Lymhurst"
     }
   },
   {
-    "@tuid": "MACE",
+    "@tuid": "SHOPSUBCATEGORY_MACE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6463,7 +6463,7 @@
     ]
   },
   {
-    "@tuid": "MAGECONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_MAGECONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6528,7 +6528,7 @@
     ]
   },
   {
-    "@tuid": "MAGIC_ARTEFACT",
+    "@tuid": "SHOPSUBCATEGORY_MAGIC_ARTEFACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6593,7 +6593,7 @@
     ]
   },
   {
-    "@tuid": "MAGICTROPHIES",
+    "@tuid": "SHOPSUBCATEGORY_MAGICTROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6658,7 +6658,7 @@
     ]
   },
   {
-    "@tuid": "MAGICTROPHIESCRAFTED",
+    "@tuid": "SHOPSUBCATEGORY_MAGICTROPHIESCRAFTED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6723,7 +6723,7 @@
     ]
   },
   {
-    "@tuid": "MAPS",
+    "@tuid": "SHOPSUBCATEGORY_MAPS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6788,14 +6788,14 @@
     ]
   },
   {
-    "@tuid": "MARTLOCK",
+    "@tuid": "SHOPSUBCATEGORY_MARTLOCK",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Martlock"
     }
   },
   {
-    "@tuid": "MELEE_ARTEFACT",
+    "@tuid": "SHOPSUBCATEGORY_MELEE_ARTEFACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6860,7 +6860,7 @@
     ]
   },
   {
-    "@tuid": "MERCENARYCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_MERCENARYCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6925,7 +6925,7 @@
     ]
   },
   {
-    "@tuid": "MERCENARYTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_MERCENARYTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -6990,7 +6990,7 @@
     ]
   },
   {
-    "@tuid": "METALBAR",
+    "@tuid": "SHOPSUBCATEGORY_METALBAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7055,7 +7055,7 @@
     ]
   },
   {
-    "@tuid": "MISSION",
+    "@tuid": "SHOPSUBCATEGORY_MISSION",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7120,7 +7120,7 @@
     ]
   },
   {
-    "@tuid": "MOBTROPHIES",
+    "@tuid": "SHOPSUBCATEGORY_MOBTROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7185,7 +7185,7 @@
     ]
   },
   {
-    "@tuid": "MOBTROPHIESCRAFTED",
+    "@tuid": "SHOPSUBCATEGORY_MOBTROPHIESCRAFTED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7250,7 +7250,7 @@
     ]
   },
   {
-    "@tuid": "MORGANA_FURNITURE",
+    "@tuid": "SHOPSUBCATEGORY_MORGANA_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7315,7 +7315,7 @@
     ]
   },
   {
-    "@tuid": "MOUNTAINHEART",
+    "@tuid": "SHOPSUBCATEGORY_MOUNTAINHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7380,7 +7380,7 @@
     ]
   },
   {
-    "@tuid": "MULE",
+    "@tuid": "SHOPSUBCATEGORY_MULE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7445,7 +7445,7 @@
     ]
   },
   {
-    "@tuid": "NATURESTAFF",
+    "@tuid": "SHOPSUBCATEGORY_NATURESTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7510,7 +7510,7 @@
     ]
   },
   {
-    "@tuid": "OFFHAND_ARTEFACT",
+    "@tuid": "SHOPSUBCATEGORY_OFFHAND_ARTEFACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7575,7 +7575,7 @@
     ]
   },
   {
-    "@tuid": "ORB",
+    "@tuid": "SHOPSUBCATEGORY_ORB",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7640,7 +7640,7 @@
     ]
   },
   {
-    "@tuid": "ORE",
+    "@tuid": "SHOPSUBCATEGORY_ORE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7705,7 +7705,7 @@
     ]
   },
   {
-    "@tuid": "ORECONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_ORECONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7770,7 +7770,7 @@
     ]
   },
   {
-    "@tuid": "OREGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_OREGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7835,7 +7835,7 @@
     ]
   },
   {
-    "@tuid": "OREGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_OREGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7900,7 +7900,7 @@
     ]
   },
   {
-    "@tuid": "OREGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_OREGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -7965,7 +7965,7 @@
     ]
   },
   {
-    "@tuid": "OREGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_OREGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8030,7 +8030,7 @@
     ]
   },
   {
-    "@tuid": "ORETROPHY",
+    "@tuid": "SHOPSUBCATEGORY_ORETROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8095,7 +8095,7 @@
     ]
   },
   {
-    "@tuid": "OTHER",
+    "@tuid": "SHOPSUBCATEGORY_OTHER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8160,7 +8160,7 @@
     ]
   },
   {
-    "@tuid": "OX",
+    "@tuid": "SHOPSUBCATEGORY_OX",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8225,7 +8225,7 @@
     ]
   },
   {
-    "@tuid": "PICKAXE",
+    "@tuid": "SHOPSUBCATEGORY_PICKAXE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8290,7 +8290,7 @@
     ]
   },
   {
-    "@tuid": "PLANKS",
+    "@tuid": "SHOPSUBCATEGORY_PLANKS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8355,7 +8355,7 @@
     ]
   },
   {
-    "@tuid": "PLATE_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_PLATE_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8420,7 +8420,7 @@
     ]
   },
   {
-    "@tuid": "PLATE_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_PLATE_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8485,7 +8485,7 @@
     ]
   },
   {
-    "@tuid": "PLATE_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_PLATE_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8550,7 +8550,7 @@
     ]
   },
   {
-    "@tuid": "POTION",
+    "@tuid": "SHOPSUBCATEGORY_POTION",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8615,7 +8615,7 @@
     ]
   },
   {
-    "@tuid": "PRECISIONMARK",
+    "@tuid": "SHOPSUBCATEGORY_PRECISIONMARK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8680,7 +8680,7 @@
     ]
   },
   {
-    "@tuid": "QUARTERSTAFF",
+    "@tuid": "SHOPSUBCATEGORY_QUARTERSTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8745,7 +8745,7 @@
     ]
   },
   {
-    "@tuid": "RACEHORSE",
+    "@tuid": "SHOPSUBCATEGORY_RACEHORSE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8810,7 +8810,7 @@
     ]
   },
   {
-    "@tuid": "RANGED_ARTEFACT",
+    "@tuid": "SHOPSUBCATEGORY_RANGED_ARTEFACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8875,7 +8875,7 @@
     ]
   },
   {
-    "@tuid": "RARE_MOUNT",
+    "@tuid": "SHOPSUBCATEGORY_RARE_MOUNT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -8940,7 +8940,7 @@
     ]
   },
   {
-    "@tuid": "RAW_MEAT",
+    "@tuid": "SHOPSUBCATEGORY_RAW_MEAT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9005,7 +9005,7 @@
     ]
   },
   {
-    "@tuid": "RELIC",
+    "@tuid": "SHOPSUBCATEGORY_RELIC",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9070,7 +9070,7 @@
     ]
   },
   {
-    "@tuid": "REPAIRKIT",
+    "@tuid": "SHOPSUBCATEGORY_REPAIRKIT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9135,7 +9135,7 @@
     ]
   },
   {
-    "@tuid": "RIDINGHORSE",
+    "@tuid": "SHOPSUBCATEGORY_RIDINGHORSE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9200,7 +9200,7 @@
     ]
   },
   {
-    "@tuid": "ROCK",
+    "@tuid": "SHOPSUBCATEGORY_ROCK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9265,7 +9265,7 @@
     ]
   },
   {
-    "@tuid": "ROCKGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_ROCKGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9330,7 +9330,7 @@
     ]
   },
   {
-    "@tuid": "ROCKGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_ROCKGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9395,7 +9395,7 @@
     ]
   },
   {
-    "@tuid": "ROCKGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_ROCKGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9460,7 +9460,7 @@
     ]
   },
   {
-    "@tuid": "ROCKGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_ROCKGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9525,7 +9525,7 @@
     ]
   },
   {
-    "@tuid": "ROCKHEART",
+    "@tuid": "SHOPSUBCATEGORY_ROCKHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9590,7 +9590,7 @@
     ]
   },
   {
-    "@tuid": "ROCKTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_ROCKTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9655,7 +9655,7 @@
     ]
   },
   {
-    "@tuid": "ROOT",
+    "@tuid": "SHOPSUBCATEGORY_ROOT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9720,7 +9720,7 @@
     ]
   },
   {
-    "@tuid": "ROUGHDIAMOND",
+    "@tuid": "SHOPSUBCATEGORY_ROUGHDIAMOND",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9785,7 +9785,7 @@
     ]
   },
   {
-    "@tuid": "ROYALSIGILS",
+    "@tuid": "SHOPSUBCATEGORY_ROYALSIGILS",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9850,7 +9850,7 @@
     ]
   },
   {
-    "@tuid": "RUNE",
+    "@tuid": "SHOPSUBCATEGORY_RUNE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9915,7 +9915,7 @@
     ]
   },
   {
-    "@tuid": "SEED",
+    "@tuid": "SHOPSUBCATEGORY_SEED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -9980,7 +9980,7 @@
     ]
   },
   {
-    "@tuid": "SHAPESHIFTERSTAFF",
+    "@tuid": "SHOPSUBCATEGORY_SHAPESHIFTERSTAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10045,7 +10045,7 @@
     ]
   },
   {
-    "@tuid": "SHIELD",
+    "@tuid": "SHOPSUBCATEGORY_SHIELD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10110,7 +10110,7 @@
     ]
   },
   {
-    "@tuid": "SHOES",
+    "@tuid": "SHOPSUBCATEGORY_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10175,7 +10175,7 @@
     ]
   },
   {
-    "@tuid": "SICKLE",
+    "@tuid": "SHOPSUBCATEGORY_SICKLE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10240,7 +10240,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10305,7 +10305,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK_FIBER",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK_FIBER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10370,7 +10370,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK_HIDE",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK_HIDE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10435,7 +10435,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK_ORE",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK_ORE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10500,7 +10500,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK_ROCK",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK_ROCK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10565,7 +10565,7 @@
     ]
   },
   {
-    "@tuid": "SKILLBOOK_WOOD",
+    "@tuid": "SHOPSUBCATEGORY_SKILLBOOK_WOOD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10630,7 +10630,7 @@
     ]
   },
   {
-    "@tuid": "SKINNINGKNIFE",
+    "@tuid": "SHOPSUBCATEGORY_SKINNINGKNIFE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10695,7 +10695,7 @@
     ]
   },
   {
-    "@tuid": "SOUL",
+    "@tuid": "SHOPSUBCATEGORY_SOUL",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10760,7 +10760,7 @@
     ]
   },
   {
-    "@tuid": "SPEAR",
+    "@tuid": "SHOPSUBCATEGORY_SPEAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10825,7 +10825,7 @@
     ]
   },
   {
-    "@tuid": "STAFF",
+    "@tuid": "SHOPSUBCATEGORY_STAFF",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10890,7 +10890,7 @@
     ]
   },
   {
-    "@tuid": "STONEBLOCK",
+    "@tuid": "SHOPSUBCATEGORY_STONEBLOCK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -10955,7 +10955,7 @@
     ]
   },
   {
-    "@tuid": "STONECONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_STONECONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11020,7 +11020,7 @@
     ]
   },
   {
-    "@tuid": "STONEHAMMER",
+    "@tuid": "SHOPSUBCATEGORY_STONEHAMMER",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11085,7 +11085,7 @@
     ]
   },
   {
-    "@tuid": "SULPHUR",
+    "@tuid": "SHOPSUBCATEGORY_SULPHUR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11150,7 +11150,7 @@
     ]
   },
   {
-    "@tuid": "SWAMPDRAGON",
+    "@tuid": "SHOPSUBCATEGORY_SWAMPDRAGON",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11215,7 +11215,7 @@
     ]
   },
   {
-    "@tuid": "SWORD",
+    "@tuid": "SHOPSUBCATEGORY_SWORD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11280,7 +11280,7 @@
     ]
   },
   {
-    "@tuid": "TABLE",
+    "@tuid": "SHOPSUBCATEGORY_TABLE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11345,7 +11345,7 @@
     ]
   },
   {
-    "@tuid": "TAR",
+    "@tuid": "SHOPSUBCATEGORY_TAR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11410,14 +11410,14 @@
     ]
   },
   {
-    "@tuid": "THETFORD",
+    "@tuid": "SHOPSUBCATEGORY_THETFORD",
     "tuv": {
       "@xml:lang": "EN-US",
       "seg": "Thetford"
     }
   },
   {
-    "@tuid": "THROWN",
+    "@tuid": "SHOPSUBCATEGORY_THROWN",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11482,7 +11482,7 @@
     ]
   },
   {
-    "@tuid": "TOKEN",
+    "@tuid": "SHOPSUBCATEGORY_TOKEN",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11547,7 +11547,7 @@
     ]
   },
   {
-    "@tuid": "TOOLMAKERCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_TOOLMAKERCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11612,7 +11612,7 @@
     ]
   },
   {
-    "@tuid": "TORCH",
+    "@tuid": "SHOPSUBCATEGORY_TORCH",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11677,7 +11677,7 @@
     ]
   },
   {
-    "@tuid": "TOTEM",
+    "@tuid": "SHOPSUBCATEGORY_TOTEM",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11742,7 +11742,7 @@
     ]
   },
   {
-    "@tuid": "TRACKINGTOOL",
+    "@tuid": "SHOPSUBCATEGORY_TRACKINGTOOL",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11799,7 +11799,7 @@
     ]
   },
   {
-    "@tuid": "TRASH",
+    "@tuid": "SHOPSUBCATEGORY_TRASH",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11864,7 +11864,7 @@
     ]
   },
   {
-    "@tuid": "TREEHEART",
+    "@tuid": "SHOPSUBCATEGORY_TREEHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11929,7 +11929,7 @@
     ]
   },
   {
-    "@tuid": "UNDEAD_FURNITURE",
+    "@tuid": "SHOPSUBCATEGORY_UNDEAD_FURNITURE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -11994,7 +11994,7 @@
     ]
   },
   {
-    "@tuid": "UNIQUE",
+    "@tuid": "SHOPSUBCATEGORY_UNIQUE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12059,7 +12059,7 @@
     ]
   },
   {
-    "@tuid": "UNIQUE_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_UNIQUE_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12124,7 +12124,7 @@
     ]
   },
   {
-    "@tuid": "UNIQUE_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_UNIQUE_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12189,7 +12189,7 @@
     ]
   },
   {
-    "@tuid": "UNIQUE_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_UNIQUE_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12254,7 +12254,7 @@
     ]
   },
   {
-    "@tuid": "VANITY",
+    "@tuid": "SHOPSUBCATEGORY_VANITY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12319,7 +12319,7 @@
     ]
   },
   {
-    "@tuid": "VINEHEART",
+    "@tuid": "SHOPSUBCATEGORY_VINEHEART",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12384,7 +12384,7 @@
     ]
   },
   {
-    "@tuid": "WARDROBE",
+    "@tuid": "SHOPSUBCATEGORY_WARDROBE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12449,7 +12449,7 @@
     ]
   },
   {
-    "@tuid": "WARRIORCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_WARRIORCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12514,7 +12514,7 @@
     ]
   },
   {
-    "@tuid": "WEAPONTROPHIES",
+    "@tuid": "SHOPSUBCATEGORY_WEAPONTROPHIES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12579,7 +12579,7 @@
     ]
   },
   {
-    "@tuid": "WEAPONTROPHIESCRAFTED",
+    "@tuid": "SHOPSUBCATEGORY_WEAPONTROPHIESCRAFTED",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12644,7 +12644,7 @@
     ]
   },
   {
-    "@tuid": "WISDOMMARK",
+    "@tuid": "SHOPSUBCATEGORY_WISDOMMARK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12709,7 +12709,7 @@
     ]
   },
   {
-    "@tuid": "WOOD",
+    "@tuid": "SHOPSUBCATEGORY_WOOD",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12774,7 +12774,7 @@
     ]
   },
   {
-    "@tuid": "WOODAXE",
+    "@tuid": "SHOPSUBCATEGORY_WOODAXE",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12839,7 +12839,7 @@
     ]
   },
   {
-    "@tuid": "WOODCONTRACT",
+    "@tuid": "SHOPSUBCATEGORY_WOODCONTRACT",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12904,7 +12904,7 @@
     ]
   },
   {
-    "@tuid": "WOODGATHERER_ARMOR",
+    "@tuid": "SHOPSUBCATEGORY_WOODGATHERER_ARMOR",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -12969,7 +12969,7 @@
     ]
   },
   {
-    "@tuid": "WOODGATHERER_BACKPACK",
+    "@tuid": "SHOPSUBCATEGORY_WOODGATHERER_BACKPACK",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -13034,7 +13034,7 @@
     ]
   },
   {
-    "@tuid": "WOODGATHERER_HELMET",
+    "@tuid": "SHOPSUBCATEGORY_WOODGATHERER_HELMET",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -13099,7 +13099,7 @@
     ]
   },
   {
-    "@tuid": "WOODGATHERER_SHOES",
+    "@tuid": "SHOPSUBCATEGORY_WOODGATHERER_SHOES",
     "tuv": [
       {
         "@xml:lang": "EN-US",
@@ -13164,7 +13164,7 @@
     ]
   },
   {
-    "@tuid": "WOODTROPHY",
+    "@tuid": "SHOPSUBCATEGORY_WOODTROPHY",
     "tuv": [
       {
         "@xml:lang": "EN-US",
