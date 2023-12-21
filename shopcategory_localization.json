@@ -40,7 +40,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "장신구"
+        "seg": "액세서리"
       },
       {
         "@xml:lang": "JA-JP",
@@ -53,14 +53,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Aksesori"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Aksesuarlar"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الملحقات"
       }
     ]
   },
@@ -118,14 +110,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "درع"
       }
     ]
   },
@@ -183,14 +167,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Artefak"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Eser"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قطعة أثرية"
       }
     ]
   },
@@ -248,14 +224,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sumber Daya Kota"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Şehir Kaynakları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "موارد مدينة"
       }
     ]
   },
@@ -312,15 +280,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Konsumsi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Tüketilebilir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عنصر استهلاكي"
+        "seg": "Bahan Habis Pakai"
       }
     ]
   },
@@ -377,15 +337,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Budidaya"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yetiştirilebilir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عنصر زراعة"
+        "seg": "Bahan Tanam"
       }
     ]
   },
@@ -443,14 +395,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Furnitur"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Mobilya"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أثاث"
       }
     ]
   },
@@ -495,7 +439,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "채집 장비"
+        "seg": "채집 도구"
       },
       {
         "@xml:lang": "JA-JP",
@@ -508,14 +452,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Alat Mengumpulkan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Toplayıcılık Teçhizatı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عتاد جمع"
       }
     ]
   },
@@ -573,14 +509,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pekerja"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İşçiler"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عمال"
       }
     ]
   },
@@ -638,14 +566,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Barang Mewah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Lüks Mallar"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلع فاخرة"
       }
     ]
   },
@@ -703,14 +623,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sihir"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sihir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سحر"
       }
     ]
   },
@@ -768,404 +680,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Material"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Malzemeler"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "المواد"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_CHICKEN",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Chicken"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Huhn"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Poulet cru"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Куриное мясо"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowy kurczak"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de pollo"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Galinha Crua"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne di pollo cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "鸡肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 닭고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生の鶏肉"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生雞肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Ayam Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Tavuk Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دجاج نيء"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_COW",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Beef"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Rind"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Bœuf cru"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Говядина"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowa wołowina"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de ternera"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Carne Crua"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne di manzo cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "牛肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 쇠고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生の牛肉"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生牛肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Daging Sapi Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Sığır Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم بقر نيء"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_GOAT",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Goat"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Ziegenfleisch"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Chèvre crue"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Козлятина"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowe mięso z kozy"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de cabra"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Cabra Crua"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne di capra cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "山羊肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 염소고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生のヤギ肉"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生山羊肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Daging Kambing Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Keçi Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم ماعز نيء"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_GOOSE",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Goose"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Gänsefleisch"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Oie crue"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Гусятина"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowe mięso z gęsi"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de ganso"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Ganso Cru"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne d'oca cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "鹅肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 거위고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生のガチョウ肉"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生鵝肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Daging Angsa Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Kaz Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم أوز نيء"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_PIG",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Pork"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Schweinefleisch"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Porc cru"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Свинина"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowa Wieprzowina"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de cerdo"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Porco Cru"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne di maiale cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "猪肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 돼지고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生の豚肉"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生豬肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Daging Babi Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Domuz Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم خنزير نيء"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPCATEGORY_MEAT_SHEEP",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Raw Mutton"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Rohes Hammelfleisch"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Mouton cru"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Баранина"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Surowa baranina"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Carne de carnero"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Carneiro Cru"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Carne di montone cruda"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "绵羊肉"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "생 양고기"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "生のマトン"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "生綿羊肉"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Daging Domba Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Koyun Eti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم ضأن نيء"
       }
     ]
   },
@@ -1222,15 +736,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Jarak Dekat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yakın Dövüş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلاح اشتباك"
+        "seg": "Melee"
       }
     ]
   },
@@ -1288,14 +794,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tunggangan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Binek"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطية"
       }
     ]
   },
@@ -1353,14 +851,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Off-Hand"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İkincil"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلاح احتياطي"
       }
     ]
   },
@@ -1418,14 +908,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Lainnya"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Diğer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أخرى"
       }
     ]
   },
@@ -1483,14 +965,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Produk"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ürün"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "المنتج"
       }
     ]
   },
@@ -1547,15 +1021,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Jarak Jauh"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Menzilli"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلاح بعيد المدى"
+        "seg": "Ranged"
       }
     ]
   },
@@ -1613,14 +1079,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sumber Daya"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kaynak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مورد"
       }
     ]
   },
@@ -1678,14 +1136,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kitaplar"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات"
       }
     ]
   },
@@ -1743,14 +1193,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Token"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Jeton"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عملة رمزية"
       }
     ]
   },
@@ -1808,14 +1250,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Peralatan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Alet"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أداة"
       }
     ]
   },
@@ -1873,14 +1307,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hatıralar"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جوائز"
       }
     ]
   }
