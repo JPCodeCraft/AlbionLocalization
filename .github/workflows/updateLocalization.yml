@@ -1,0 +1,53 @@
+name: Update Localization Files
+
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'  # Runs twice a day
+
+jobs:
+  update-localization:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout AlbionLocalization Repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+        path: 'AlbionLocalization'
+
+    - name: Download localization.json from original repo
+      run: |
+        curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/localization.json
+
+    - name: Check for Changes in localization.json
+      run: |
+        CHANGED_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
+        if [ -n "$CHANGED_FILES" ]; then
+          echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+        else
+          echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
+        fi
+
+    - name: Setup jq
+      if: env.CHANGES_DETECTED == 'true'
+      run: sudo apt-get install jq
+
+    - name: Perform JSON Manipulation
+      if: env.CHANGES_DETECTED == 'true'
+      run: |
+        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@ITEMS_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/items_localization.json
+        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopcategory_localization.json
+        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopsubcategory_localization.json
+        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@DESTINYBOARD_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/destinyboard_localization.json
+        jq -s ".[0] + .[1] + .[2] + .[3]" AlbionLocalization/items_localization.json AlbionLocalization/shopcategory_localization.json AlbionLocalization/shopsubcategory_localization.json AlbionLocalization/destinyboard_localization.json > AlbionLocalization/merged_localization.json
+
+    - name: Commit and Push to AlbionLocalization Repo
+      if: env.CHANGES_DETECTED == 'true'
+      run: |
+        cd AlbionLocalization
+        git config --global user.email "albionfreemarket@gmail.com"
+        git config --global user.name "Albion Free Market"
+        git add .
+        git commit -m "Update localization files"
+        git push
