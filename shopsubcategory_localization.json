@@ -53,14 +53,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Hewan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hayvan"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حيوان"
       }
     ]
   },
@@ -118,14 +110,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Semua"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hepsi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أي شيء"
       }
     ]
   },
@@ -183,14 +167,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Arcane"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Arkana Asası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا ساحر"
       }
     ]
   },
@@ -248,14 +224,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sigil Arena"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Arena Mührü"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "رمز ساحة قتال"
       }
     ]
   },
@@ -300,7 +268,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "방어구"
+        "seg": "갑옷"
       },
       {
         "@xml:lang": "JA-JP",
@@ -313,14 +281,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "درع"
       }
     ]
   },
@@ -378,14 +338,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kuda Berzirah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zırhlı At"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حصان مدرّع"
       }
     ]
   },
@@ -443,14 +395,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Armor"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zırh Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة درع"
       }
     ]
   },
@@ -508,14 +452,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Armor (C)"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zırh Hatırası (Ü)"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة درع (C)"
       }
     ]
   },
@@ -573,14 +509,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kapak"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balta"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "فأس"
       }
     ]
   },
@@ -638,14 +566,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çanta"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة"
       }
     ]
   },
@@ -703,14 +623,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Banner"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sancak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "راية"
       }
     ]
   },
@@ -768,14 +680,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tunggangan Tempur"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Savaş Bineği"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطية المعركة"
       }
     ]
   },
@@ -833,14 +737,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Battlevault"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Savaş Kasası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صندوق المعركة"
       }
     ]
   },
@@ -861,7 +757,7 @@
       },
       {
         "@xml:lang": "RU-RU",
-        "seg": "Сердце зверя"
+        "seg": "Звериное сердце"
       },
       {
         "@xml:lang": "PL-PL",
@@ -898,14 +794,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Beastheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yırtıcıkalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة الحيوانات"
       }
     ]
   },
@@ -963,14 +851,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kasur"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yatak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سرير"
       }
     ]
   },
@@ -1028,14 +908,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sabuk"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kemer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حزام"
       }
     ]
   },
@@ -1093,14 +965,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Shadowheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Gölgekalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "روح الظلام"
       }
     ]
   },
@@ -1158,14 +1022,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Darah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kan"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دماء"
       }
     ]
   },
@@ -1223,14 +1079,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor Badan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Gövde Zırhı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سترة واقية"
       }
     ]
   },
@@ -1288,14 +1136,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tulang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kemik"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عظمة"
       }
     ]
   },
@@ -1353,14 +1193,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Item Bonus"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Bonus Eşya"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عنصر إضافي"
       }
     ]
   },
@@ -1418,14 +1250,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Buku"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kitap"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "كتاب"
       }
     ]
   },
@@ -1483,14 +1307,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Buku"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kitap Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة كتاب"
       }
     ]
   },
@@ -1548,14 +1364,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Buku (C)"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kitap Hatırası (Ü)"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة كتاب (C)"
       }
     ]
   },
@@ -1600,7 +1408,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "활"
+        "seg": "보우"
       },
       {
         "@xml:lang": "JA-JP",
@@ -1613,14 +1421,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Busur"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yay"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قوس"
       }
     ]
   },
@@ -1692,14 +1492,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Jubah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Pelerin"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "رداء"
       }
     ]
   },
@@ -1757,14 +1549,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kursi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Koltuk"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "كرسي"
       }
     ]
   },
@@ -1801,7 +1585,7 @@
       },
       {
         "@xml:lang": "IT-IT",
-        "seg": "Forziere"
+        "seg": "Torsi"
       },
       {
         "@xml:lang": "ZH-CN",
@@ -1822,14 +1606,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Peti"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sandık"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صندوق"
       }
     ]
   },
@@ -1882,19 +1658,11 @@
       },
       {
         "@xml:lang": "ZH-TW",
-        "seg": "布料"
+        "seg": "布質"
       },
       {
         "@xml:lang": "ID-ID",
         "seg": "Kain"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kumaş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قماش"
       }
     ]
   },
@@ -1939,7 +1707,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "직물 갑옷"
+        "seg": "천 갑옷"
       },
       {
         "@xml:lang": "JA-JP",
@@ -1952,14 +1720,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor Kain"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kumaş Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "درع قماشية"
       }
     ]
   },
@@ -2004,7 +1764,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "직물 헬멧"
+        "seg": "천 헬멧"
       },
       {
         "@xml:lang": "JA-JP",
@@ -2017,14 +1777,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Helm Kain"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kumaş Miğfer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خوذة قماشية"
       }
     ]
   },
@@ -2069,7 +1821,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "직물 신발"
+        "seg": "천 신발"
       },
       {
         "@xml:lang": "JA-JP",
@@ -2082,14 +1834,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sepatu Kain"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kumaş Ayakkabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء قماشي"
       }
     ]
   },
@@ -2147,14 +1891,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Matang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Pişmiş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة مطبوخة"
       }
     ]
   },
@@ -2212,14 +1948,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Swiftclaw"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Seripençe"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مخلب سريع"
       }
     ]
   },
@@ -2277,14 +2005,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Busur Silang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Arbalet"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قوس"
       }
     ]
   },
@@ -2342,14 +2062,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Token Liga Kristal"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kristal Ligi Jetonu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عملة الدوري الكريستالي الرمزية"
       }
     ]
   },
@@ -2394,7 +2106,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "커스드 스태프"
+        "seg": "저주받은 스태프"
       },
       {
         "@xml:lang": "JA-JP",
@@ -2407,14 +2119,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Terkutuk"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Lanetli Asa"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا الملعون"
       }
     ]
   },
@@ -2472,14 +2176,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Belati"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hançer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خنجر"
       }
     ]
   },
@@ -2537,14 +2233,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Dekorasi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Dekorasyon"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "زينة"
       }
     ]
   },
@@ -2602,14 +2290,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Palu Demolisi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yıkım Çekici"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطرقة هدم"
       }
     ]
   },
@@ -2667,14 +2347,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tanda Kehancuran"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yıkım İşareti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "علامة التدمير"
       }
     ]
   },
@@ -2732,14 +2404,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Direbear"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Azılı Ayı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دب رهيب"
       }
     ]
   },
@@ -2797,14 +2461,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Direboar"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Azılı Yaban Domuzu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خنزير بري رهيب"
       }
     ]
   },
@@ -2862,14 +2518,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Direwolf"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Azılı Kurt"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ذئب العصر الجليدي"
       }
     ]
   },
@@ -2914,7 +2562,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "정수"
+        "seg": "에센스"
       },
       {
         "@xml:lang": "JA-JP",
@@ -2927,14 +2575,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Esens"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Özüt"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جوهر"
       }
     ]
   },
@@ -2992,14 +2632,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Event"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Etkinlik"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "فعالية"
       }
     ]
   },
@@ -3057,14 +2689,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bertani"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiftçilik"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الإنتاج"
       }
     ]
   },
@@ -3122,14 +2746,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Serat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Lif"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ألياف"
       }
     ]
   },
@@ -3187,14 +2803,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tanaman Panen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ekinci"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "آلة حصاد"
       }
     ]
   },
@@ -3252,14 +2860,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Pemanen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hasatçı Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "رداء الحاصد"
       }
     ]
   },
@@ -3317,14 +2917,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Pemanen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hasatçı Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر الحاصد"
       }
     ]
   },
@@ -3382,14 +2974,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Pemanen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hasatçı Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة الحاصد"
       }
     ]
   },
@@ -3447,14 +3031,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Pemanen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hasatçı Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء عمل الحاصد"
       }
     ]
   },
@@ -3512,14 +3088,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Serat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Lif Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة ألياف"
       }
     ]
   },
@@ -3577,14 +3145,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Api"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ateş Asası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا نارية"
       }
     ]
   },
@@ -3642,14 +3202,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Ikan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balık"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سمكة"
       }
     ]
   },
@@ -3707,14 +3259,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Nelayan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçı Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ملابس صياد السمك"
       }
     ]
   },
@@ -3772,14 +3316,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Nelayan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçı Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر صياد السمك"
       }
     ]
   },
@@ -3837,14 +3373,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Nelayan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçı Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة صياد السمك"
       }
     ]
   },
@@ -3885,7 +3413,7 @@
       },
       {
         "@xml:lang": "ZH-CN",
-        "seg": "渔夫长靴"
+        "seg": "渔夫靴子"
       },
       {
         "@xml:lang": "KO-KR",
@@ -3897,19 +3425,11 @@
       },
       {
         "@xml:lang": "ZH-TW",
-        "seg": "漁夫長靴"
+        "seg": "漁夫靴子"
       },
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Nelayan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçı Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء صياد السمك"
       }
     ]
   },
@@ -3967,14 +3487,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Joran"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Olta"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صنارة صيد"
       }
     ]
   },
@@ -4032,14 +3544,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Umpan Pancing"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balık Yemi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "طُعم"
       }
     ]
   },
@@ -4097,14 +3601,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Nelayan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صياد سمك"
       }
     ]
   },
@@ -4162,14 +3658,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Memancing"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Balıkçılık Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة صيد"
       }
     ]
   },
@@ -4227,14 +3715,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bendera"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Bayrak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "علم"
       }
     ]
   },
@@ -4292,14 +3772,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Makanan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yiyecek"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "طعام"
       }
     ]
   },
@@ -4364,14 +3836,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Fragmen"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Parça"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أجزاء"
       }
     ]
   },
@@ -4429,14 +3893,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Beku"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Buz Asası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا الصقيع"
       }
     ]
   },
@@ -4494,14 +3950,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Permata"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Değerli Taş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حجر كريم"
       }
     ]
   },
@@ -4559,14 +4007,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Palu Permata"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Değerli Taş Çekici"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطرقة أحجار كريمة"
       }
     ]
   },
@@ -4624,14 +4064,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Umum"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Genel Hatıra"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة عامة"
       }
     ]
   },
@@ -4689,14 +4121,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Rusa Jantan/Besar"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Geyik"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أيل/غزال"
       }
     ]
   },
@@ -4754,14 +4178,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tombak Berkapak"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Baltalı Kargı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مِطرد"
       }
     ]
   },
@@ -4819,14 +4235,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Palu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çekiç"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطرقة"
       }
     ]
   },
@@ -4884,14 +4292,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Harpa"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Arp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قيثارة"
       }
     ]
   },
@@ -4949,14 +4349,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pulih"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Şifa"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "علاج"
       }
     ]
   },
@@ -5014,14 +4406,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Helm"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Miğfer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خوذة"
       }
     ]
   },
@@ -5079,14 +4463,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sesat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İnkârcı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "المنشقون"
       }
     ]
   },
@@ -5144,14 +4520,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kulit Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kürk"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جلد"
       }
     ]
   },
@@ -5209,14 +4577,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Jagawana"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Av Bekçisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حارس الطرائد"
       }
     ]
   },
@@ -5274,14 +4634,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Pengulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Yüzücü Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ملابس الدبّاغ"
       }
     ]
   },
@@ -5339,14 +4691,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Pengulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Yüzücü Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر الدبّاغ"
       }
     ]
   },
@@ -5404,14 +4748,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Pengulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Yüzücü Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة الدبّاغ"
       }
     ]
   },
@@ -5469,14 +4805,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Pengulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Yüzücü Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء عمل الدبّاغ"
       }
     ]
   },
@@ -5534,14 +4862,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Kulit Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kürk Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة الجلود"
       }
     ]
   },
@@ -5599,14 +4919,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Suci"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kutsal Asa"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "العصا المباركة"
       }
     ]
   },
@@ -5664,14 +4976,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tanduk"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Boynuz"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "بوق"
       }
     ]
   },
@@ -5729,14 +5033,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pembuat Panah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Okçu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صانع السهام"
       }
     ]
   },
@@ -5793,15 +5089,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Permata"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Mücevher"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جوهرة"
+        "seg": "Ratna"
       }
     ]
   },
@@ -5859,14 +5147,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Jurnal"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Günlükler"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مفكرات"
       }
     ]
   },
@@ -5924,14 +5204,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Penjaga"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Korucu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الحراس"
       }
     ]
   },
@@ -5989,14 +5261,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Emoji Kemenangan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Zafer İfadeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "إيماءات الانتصار"
       }
     ]
   },
@@ -6054,14 +5318,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sarung Tangan Perang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Savaş Eldivenleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قفازات قتال"
       }
     ]
   },
@@ -6119,14 +5375,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Busur Silang Besar"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Büyük Arbalet"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قوس كبير"
       }
     ]
   },
@@ -6184,14 +5432,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جلد"
       }
     ]
   },
@@ -6216,7 +5456,7 @@
       },
       {
         "@xml:lang": "PL-PL",
-        "seg": "Zbroja Skórzana"
+        "seg": "Zbroja Skórzania"
       },
       {
         "@xml:lang": "ES-ES",
@@ -6236,7 +5476,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "피혁 갑옷"
+        "seg": "가죽 갑옷"
       },
       {
         "@xml:lang": "JA-JP",
@@ -6249,14 +5489,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor Kulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "درع من الجلد"
       }
     ]
   },
@@ -6301,7 +5533,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "피혁 헬멧"
+        "seg": "가죽 헬멧"
       },
       {
         "@xml:lang": "JA-JP",
@@ -6314,14 +5546,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Helm Kulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Miğfer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خوذة من الجلد"
       }
     ]
   },
@@ -6366,7 +5590,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "피혁 신발"
+        "seg": "가죽 신발"
       },
       {
         "@xml:lang": "JA-JP",
@@ -6379,14 +5603,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sepatu Kulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Ayakkabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء من الجلد"
       }
     ]
   },
@@ -6451,14 +5667,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Gada"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Gürz"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صولجان"
       }
     ]
   },
@@ -6516,14 +5724,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pengilham"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Aşılayıcı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "صبّاغ"
       }
     ]
   },
@@ -6576,19 +5776,11 @@
       },
       {
         "@xml:lang": "ZH-TW",
-        "seg": "魔法武器"
+        "seg": "魔法"
       },
       {
         "@xml:lang": "ID-ID",
         "seg": "Sihir"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sihir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سحر"
       }
     ]
   },
@@ -6646,14 +5838,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Sihir"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sihir Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة السحر"
       }
     ]
   },
@@ -6711,14 +5895,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Sihir (C)"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sihir Hatırası (Ü)"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة السحر (C)"
       }
     ]
   },
@@ -6776,14 +5952,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Peta"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Harita"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الخريطة"
       }
     ]
   },
@@ -6847,15 +6015,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Jarak Dekat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yakın Dövüş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلاح اشتباك"
+        "seg": "Melee"
       }
     ]
   },
@@ -6913,14 +6073,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Upahan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Paralı Asker"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مرتزق"
       }
     ]
   },
@@ -6978,14 +6130,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Upahan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Paralı Asker Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة المرتزق"
       }
     ]
   },
@@ -7043,14 +6187,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Batang Logam"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Metal Çubuk"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "شريط معدني"
       }
     ]
   },
@@ -7108,14 +6244,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Item Misi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Görev Eşyası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عنصر مهمة"
       }
     ]
   },
@@ -7152,7 +6280,7 @@
       },
       {
         "@xml:lang": "IT-IT",
-        "seg": "Trofei dei mob"
+        "seg": "Trofei dei nemici"
       },
       {
         "@xml:lang": "ZH-CN",
@@ -7173,14 +6301,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Mob"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Düşman Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة الحشد"
       }
     ]
   },
@@ -7217,7 +6337,7 @@
       },
       {
         "@xml:lang": "IT-IT",
-        "seg": "Trofei dei mob (C)"
+        "seg": "Trofei dei nemici (C)"
       },
       {
         "@xml:lang": "ZH-CN",
@@ -7238,14 +6358,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Mob (C)"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Düşman Hatırası (Ü)"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة الحشد (C)"
       }
     ]
   },
@@ -7303,14 +6415,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Morgana"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Morgana"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مورغانا"
       }
     ]
   },
@@ -7368,14 +6472,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Mountainheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Dağkalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة الجبل"
       }
     ]
   },
@@ -7433,14 +6529,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Keledai"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Katır"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "بغل"
       }
     ]
   },
@@ -7498,14 +6586,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Alam"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Doğa Asası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا الطبيعة"
       }
     ]
   },
@@ -7546,7 +6626,7 @@
       },
       {
         "@xml:lang": "ZH-CN",
-        "seg": "副手物品"
+        "seg": "副手武器"
       },
       {
         "@xml:lang": "KO-KR",
@@ -7558,19 +6638,11 @@
       },
       {
         "@xml:lang": "ZH-TW",
-        "seg": "副手物品"
+        "seg": "副手武器"
       },
       {
         "@xml:lang": "ID-ID",
         "seg": "Off-Hand"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İkincil"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دون تحضير"
       }
     ]
   },
@@ -7628,14 +6700,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bola"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Küre"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جرم سماوي"
       }
     ]
   },
@@ -7693,14 +6757,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bijih"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Cevher"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة خام"
       }
     ]
   },
@@ -7758,14 +6814,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Prospektor"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Maden Avcısı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "منقِّب"
       }
     ]
   },
@@ -7823,14 +6871,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Penambang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Madenci Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ملابس عامل المنجم"
       }
     ]
   },
@@ -7888,14 +6928,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Penambang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Madenci Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر عامل المنجم"
       }
     ]
   },
@@ -7953,14 +6985,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Penambang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Madenci Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة عامل المنجم"
       }
     ]
   },
@@ -8018,14 +7042,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Penambang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Madenci Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء عمل عامل المنجم"
       }
     ]
   },
@@ -8083,14 +7099,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Bijih"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Cevher Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة المادة الخام"
       }
     ]
   },
@@ -8148,14 +7156,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Lainnya"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Diğer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أخرى"
       }
     ]
   },
@@ -8213,14 +7213,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Lembu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Öküz"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ثور"
       }
     ]
   },
@@ -8277,15 +7269,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Belencong"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kazma"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مِعوَل"
+        "seg": "Beliung"
       }
     ]
   },
@@ -8343,14 +7327,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Papan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kalas"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ألواح خشبية"
       }
     ]
   },
@@ -8395,7 +7371,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "플레이트 갑옷"
+        "seg": "철 갑옷"
       },
       {
         "@xml:lang": "JA-JP",
@@ -8408,14 +7384,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor Pelat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Plaka Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دِرع صفيحية"
       }
     ]
   },
@@ -8460,7 +7428,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "플레이트 헬멧"
+        "seg": "철 헬멧"
       },
       {
         "@xml:lang": "JA-JP",
@@ -8473,14 +7441,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Helm Pelat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Plaka Miğfer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خوذة صفيحية"
       }
     ]
   },
@@ -8525,7 +7485,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "플레이트 신발"
+        "seg": "철 신발"
       },
       {
         "@xml:lang": "JA-JP",
@@ -8538,14 +7498,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sepatu Pelat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Plaka Ayakkabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء صفيحي"
       }
     ]
   },
@@ -8603,14 +7555,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Ramuan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İksir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جرعة"
       }
     ]
   },
@@ -8668,14 +7612,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tanda Presisi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İsabetlilik İşareti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "علامة الدقة"
       }
     ]
   },
@@ -8733,14 +7669,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat Pemukul"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sopa"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا قتالية قصيرة"
       }
     ]
   },
@@ -8798,14 +7726,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kuda Pacu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yarış Atı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حصان سباق"
       }
     ]
   },
@@ -8862,15 +7782,7 @@
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Jarak Jauh"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Menzilli"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سلاح بعيد المدى"
+        "seg": "Ranged"
       }
     ]
   },
@@ -8928,14 +7840,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tunggangan Langka"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Nadir Binek"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطية نادرة"
       }
     ]
   },
@@ -8993,14 +7897,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Daging Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çiğ Et"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "لحم نيء"
       }
     ]
   },
@@ -9058,14 +7954,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Relik"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Yadigâr"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "أثر"
       }
     ]
   },
@@ -9123,14 +8011,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kit Reparasi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Tamir Seti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة تصليح"
       }
     ]
   },
@@ -9175,7 +8055,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "승용마"
+        "seg": "승마"
       },
       {
         "@xml:lang": "JA-JP",
@@ -9188,14 +8068,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kuda Tunggangan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Binek Atı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حصان ركوب"
       }
     ]
   },
@@ -9253,14 +8125,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Batu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حجر"
       }
     ]
   },
@@ -9318,14 +8182,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Penggali"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Ocağı İşçisi Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ملابس عامل المحجر"
       }
     ]
   },
@@ -9383,14 +8239,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Penggali"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Ocağı İşçisi Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر عامل المحجر"
       }
     ]
   },
@@ -9448,14 +8296,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Penggali"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Ocağı İşçisi Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة عامل المحجر"
       }
     ]
   },
@@ -9513,14 +8353,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Penggali"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Ocağı İşçisi Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء عمل عامل المحجر"
       }
     ]
   },
@@ -9541,7 +8373,7 @@
       },
       {
         "@xml:lang": "RU-RU",
-        "seg": "Сердце камня"
+        "seg": "Каменное сердце"
       },
       {
         "@xml:lang": "PL-PL",
@@ -9578,14 +8410,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Rockheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kayakalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة الصخر"
       }
     ]
   },
@@ -9643,14 +8467,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Batu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة الحجر"
       }
     ]
   },
@@ -9708,14 +8524,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Akar"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kök"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جذر"
       }
     ]
   },
@@ -9773,14 +8581,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Berlian Mentah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İşlenmemiş Elmas"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الماس الخام"
       }
     ]
   },
@@ -9838,14 +8638,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sigil Kerajaan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kraliyet Mührü"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "رمز ملكي"
       }
     ]
   },
@@ -9903,14 +8695,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Rune"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Rün"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عنصر الرون"
       }
     ]
   },
@@ -9968,79 +8752,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Benih"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Tohum"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "بذرة"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPSUBCATEGORY_SHAPESHIFTERSTAFF",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Shapeshifter Staff"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Gestaltwandlerstab"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Bâton de Changeforme"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Посох оборотня"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Kostur Zmiennokształtnych"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Bastón de Cambiaformas"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Cajado Metamorfo"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Bastone del mutaforma"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "幻形者法杖"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "셰이프시프터 스태프"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "シェイプシフターの杖"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "幻形者法杖"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Tongkat Malih Rupa"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Şekil Değiştiren Asası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عصا المتحول"
       }
     ]
   },
@@ -10098,14 +8809,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Perisai"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kalkan"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "درع"
       }
     ]
   },
@@ -10163,14 +8866,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sepatu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ayakkabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء"
       }
     ]
   },
@@ -10228,14 +8923,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sabit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Orak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "منجل"
       }
     ]
   },
@@ -10293,14 +8980,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Wawasan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "İçgörü Kitabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات البصيرة"
       }
     ]
   },
@@ -10358,14 +9037,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Pemanen Serat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Lif Hasatçısı Kitapları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات حاصد الألياف"
       }
     ]
   },
@@ -10423,14 +9094,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Pengulit Hewan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hayvan Yüzücüsü Kitapları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات دبّاغ جلود الحيوانات"
       }
     ]
   },
@@ -10488,14 +9151,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Penambang Bijih"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Cevher Madencisi Kitapları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات عامل منجم المواد الخام"
       }
     ]
   },
@@ -10553,14 +9208,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Penggali"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Ocağı İşçisi Kitapları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات عامل المحجر"
       }
     ]
   },
@@ -10618,14 +9265,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kitab Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu Kitapları"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مجلدات الحطاب"
       }
     ]
   },
@@ -10683,14 +9322,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pisau Pengulit"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Deri Yüzme Bıçağı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سكين سلخ"
       }
     ]
   },
@@ -10748,14 +9379,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Jiwa"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ruh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "شظايا الروح"
       }
     ]
   },
@@ -10800,7 +9423,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "창"
+        "seg": "스피어"
       },
       {
         "@xml:lang": "JA-JP",
@@ -10813,14 +9436,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tombak"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Mızrak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "رمح"
       }
     ]
   },
@@ -10878,14 +9493,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tongkat"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Personel"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الطاقم"
       }
     ]
   },
@@ -10943,14 +9550,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Balok Batu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Blok"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "كتلة حجرية"
       }
     ]
   },
@@ -11008,14 +9607,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pemotong Batu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Yontucu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قاطع أحجار"
       }
     ]
   },
@@ -11073,14 +9664,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Palu Batu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Taş Çekiç"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مطرقة أحجار"
       }
     ]
   },
@@ -11138,14 +9721,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Belerang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Sülfür"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "كبريت"
       }
     ]
   },
@@ -11203,14 +9778,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Naga Rawa"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Bataklık Ejderhası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مستنقع التنين"
       }
     ]
   },
@@ -11255,7 +9822,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "검"
+        "seg": "소드"
       },
       {
         "@xml:lang": "JA-JP",
@@ -11268,14 +9835,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pedang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Kılıç"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سيف"
       }
     ]
   },
@@ -11333,14 +9892,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Meja"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Masa"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "طاولة"
       }
     ]
   },
@@ -11398,14 +9949,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Ter"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Katran"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قطران"
       }
     ]
   },
@@ -11470,14 +10013,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Dilempar"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Atılabilir"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "إلقاء"
       }
     ]
   },
@@ -11535,14 +10070,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Token"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Jetonlar"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "عملات رمزية"
       }
     ]
   },
@@ -11600,14 +10127,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pematri"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Aletçi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "سمكري"
       }
     ]
   },
@@ -11652,7 +10171,7 @@
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "횃불"
+        "seg": "토치"
       },
       {
         "@xml:lang": "JA-JP",
@@ -11665,14 +10184,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Obor"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Meşale"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مصباح"
       }
     ]
   },
@@ -11730,71 +10241,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Totem"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Totem"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "طوطم"
-      }
-    ]
-  },
-  {
-    "@tuid": "SHOPSUBCATEGORY_TRACKINGTOOL",
-    "tuv": [
-      {
-        "@xml:lang": "EN-US",
-        "seg": "Ready for Battle?"
-      },
-      {
-        "@xml:lang": "DE-DE",
-        "seg": "Fährtensucher-Ausrüstung"
-      },
-      {
-        "@xml:lang": "FR-FR",
-        "seg": "Boîte à outils de pistage"
-      },
-      {
-        "@xml:lang": "RU-RU",
-        "seg": "Инструменты следопыта"
-      },
-      {
-        "@xml:lang": "PL-PL",
-        "seg": "Zestaw Tropiciela"
-      },
-      {
-        "@xml:lang": "ES-ES",
-        "seg": "Kit de rastreo"
-      },
-      {
-        "@xml:lang": "PT-BR",
-        "seg": "Kit de Rastreamento"
-      },
-      {
-        "@xml:lang": "IT-IT",
-        "seg": "Kit di strumenti traccianti"
-      },
-      {
-        "@xml:lang": "ZH-CN",
-        "seg": "追踪工具包"
-      },
-      {
-        "@xml:lang": "KO-KR",
-        "seg": "추적 키트"
-      },
-      {
-        "@xml:lang": "JA-JP",
-        "seg": "追跡ツールキット"
-      },
-      {
-        "@xml:lang": "ZH-TW",
-        "seg": "追蹤工具組"
-      },
-      {
-        "@xml:lang": "ID-ID",
-        "seg": "Peralatan Pelacakan"
       }
     ]
   },
@@ -11852,14 +10298,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sampah"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Çöp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قمامة"
       }
     ]
   },
@@ -11880,7 +10318,7 @@
       },
       {
         "@xml:lang": "RU-RU",
-        "seg": "Сердце древа"
+        "seg": "Древесное сердце"
       },
       {
         "@xml:lang": "PL-PL",
@@ -11917,14 +10355,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Treeheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Ağaçkalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة الشجر"
       }
     ]
   },
@@ -11982,14 +10412,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Mayat Hidup"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Hortlak"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الموتى الأحياء"
       }
     ]
   },
@@ -12047,14 +10469,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Unik"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Eşsiz"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مميز"
       }
     ]
   },
@@ -12112,14 +10526,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Armor Unik"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Eşsiz Zırh"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "دِرع مميزة"
       }
     ]
   },
@@ -12177,14 +10583,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Helm Unik"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Eşsiz Miğfer"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خوذة مميزة"
       }
     ]
   },
@@ -12242,14 +10640,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Sepatu Unik"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Eşsiz Ayakkabı"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء مميز"
       }
     ]
   },
@@ -12307,14 +10697,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Vanity"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Gösteriş"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "الزينة"
       }
     ]
   },
@@ -12372,14 +10754,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Vineheart"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Asmakalp"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "مادة الكرمات"
       }
     ]
   },
@@ -12437,14 +10811,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Wardrobe"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Gardırop"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خزانة الملابس"
       }
     ]
   },
@@ -12502,14 +10868,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pandai Besi"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Demirci"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حدّاد"
       }
     ]
   },
@@ -12567,14 +10925,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Senjata"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Silah Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة السلاح"
       }
     ]
   },
@@ -12632,14 +10982,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Senjata (C)"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Silah Hatırası (Ü)"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة السلاح (C)"
       }
     ]
   },
@@ -12697,14 +11039,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tanda Kebijaksanaan"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Bilgelik İşareti"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "علامة الحكمة"
       }
     ]
   },
@@ -12762,14 +11096,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kayu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Odun"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "خشب"
       }
     ]
   },
@@ -12827,14 +11153,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Kapak Kayu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Odun Baltası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "فأس خشبي"
       }
     ]
   },
@@ -12892,14 +11210,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حطاب"
       }
     ]
   },
@@ -12957,14 +11267,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pakaian Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu Giysisi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "ملابس الحطاب"
       }
     ]
   },
@@ -13022,14 +11324,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Tas Punggung Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu Sırt Çantası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حقيبة ظهر الحطاب"
       }
     ]
   },
@@ -13087,14 +11381,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Topi Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu Kepi"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "قبعة الحطاب"
       }
     ]
   },
@@ -13152,14 +11438,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Bot Penebang"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Oduncu Çizmeleri"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "حذاء عمل الحطاب"
       }
     ]
   },
@@ -13217,14 +11495,6 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Trofi Kayu"
-      },
-      {
-        "@xml:lang": "TR-TR",
-        "seg": "Odun Hatırası"
-      },
-      {
-        "@xml:lang": "AR-SA",
-        "seg": "جائزة الخشب"
       }
     ]
   }
