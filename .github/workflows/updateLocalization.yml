@@ -20,7 +20,6 @@ jobs:
     - name: Download localization.json from original repo
       run: |
         curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/localization.json
-        mv localization.json AlbionLocalization/localization.json
 
     - name: Check for Changes in localization.json
       run: |
@@ -30,6 +29,7 @@ jobs:
         else
           echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
         fi
+        mv localization.json AlbionLocalization/localization.json
 
     - name: Setup jq
       if: env.CHANGES_DETECTED == 'true'
