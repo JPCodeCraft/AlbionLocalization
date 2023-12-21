@@ -15,6 +15,7 @@ jobs:
       with:
         fetch-depth: 1
         path: 'AlbionLocalization'
+        token: ${{ secrets.REPO_B_ACCESS_TOKEN }}
 
     - name: Download localization.json from original repo
       run: |
