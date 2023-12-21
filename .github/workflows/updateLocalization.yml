@@ -29,11 +29,6 @@ jobs:
         else
           echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
         fi
-        
-    - name: Move downloaded localization.json to AlbionLocalization
-      if: env.CHANGES_DETECTED == 'true'
-      run: |
-        mv localization.json AlbionLocalization/localization.json
 
     - name: Setup jq
       if: env.CHANGES_DETECTED == 'true'
@@ -47,6 +42,11 @@ jobs:
         jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopsubcategory_localization.json
         jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@DESTINYBOARD_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/destinyboard_localization.json
         jq -s ".[0] + .[1] + .[2] + .[3]" AlbionLocalization/items_localization.json AlbionLocalization/shopcategory_localization.json AlbionLocalization/shopsubcategory_localization.json AlbionLocalization/destinyboard_localization.json > AlbionLocalization/merged_localization.json
+        
+    - name: Move downloaded localization.json to AlbionLocalization
+      if: env.CHANGES_DETECTED == 'true'
+      run: |
+        mv localization.json AlbionLocalization/localization.json
 
     - name: Commit and Push to AlbionLocalization Repo
       if: env.CHANGES_DETECTED == 'true'
