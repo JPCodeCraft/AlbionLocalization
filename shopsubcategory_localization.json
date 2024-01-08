@@ -10045,6 +10045,120 @@
     ]
   },
   {
+    "@tuid": "SHOPSUBCATEGORY_SHARD_AVALON",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Avalonian Shards"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Avalonische Splitter"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Éclats avaloniens"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Авалонские осколки"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Awalońskie Odłamki"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Fragmentos avalonianos"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Fragmentos Avalonianos"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Schegge avaloniane"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "阿瓦隆碎片"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "아발로니안 파편"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "アバロニアンシャード"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "阿瓦隆碎片"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Pecahan Avalonian"
+      }
+    ]
+  },
+  {
+    "@tuid": "SHOPSUBCATEGORY_SHARD_CRYSTAL",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Crystal Shards"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Kristallsplitter"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Éclats de cristal"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Осколки кристалла"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Kryształowe Odłamki"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Fragmentos de cristal"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Fragmentos de Cristal"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Schegge di cristallo"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "水晶碎片"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "크리스탈 파편"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "クリスタルシャード"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "水晶碎片"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Pecahan Kristal"
+      }
+    ]
+  },
+  {
     "@tuid": "SHOPSUBCATEGORY_SHIELD",
     "tuv": [
       {
@@ -11746,7 +11860,7 @@
     "tuv": [
       {
         "@xml:lang": "EN-US",
-        "seg": "Ready for Battle?"
+        "seg": "Tracking Toolkit"
       },
       {
         "@xml:lang": "DE-DE",
@@ -11795,6 +11909,14 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Peralatan Pelacakan"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "İz Sürme Alet Seti"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "أدوات التتبع"
       }
     ]
   },
