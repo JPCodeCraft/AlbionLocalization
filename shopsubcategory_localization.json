@@ -10098,6 +10098,14 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pecahan Avalonian"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Avalon Parçaları"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "شظايا أفالونية"
       }
     ]
   },
@@ -10155,6 +10163,14 @@
       {
         "@xml:lang": "ID-ID",
         "seg": "Pecahan Kristal"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Kristal Parçaları"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "شظايا كريستالية"
       }
     ]
   },
