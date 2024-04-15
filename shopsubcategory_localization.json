@@ -2553,15 +2553,15 @@
     "tuv": [
       {
         "@xml:lang": "EN-US",
-        "seg": "Demolition Hammer"
+        "seg": "Siege Hammer"
       },
       {
         "@xml:lang": "DE-DE",
-        "seg": "Abbruchhammer"
+        "seg": "Belagerungshammer"
       },
       {
         "@xml:lang": "FR-FR",
-        "seg": "Masse de démolition"
+        "seg": "Marteau de siège"
       },
       {
         "@xml:lang": "RU-RU",
@@ -2569,47 +2569,47 @@
       },
       {
         "@xml:lang": "PL-PL",
-        "seg": "Młot do wyburzeń"
+        "seg": "Młot Oblężniczy"
       },
       {
         "@xml:lang": "ES-ES",
-        "seg": "Martillo de demolición"
+        "seg": "Martillo de asedio"
       },
       {
         "@xml:lang": "PT-BR",
-        "seg": "Martelo de Demolição"
+        "seg": "Martelo de Cerco"
       },
       {
         "@xml:lang": "IT-IT",
-        "seg": "Martelli da demolizione"
+        "seg": "Martelli d'assedio"
       },
       {
         "@xml:lang": "ZH-CN",
-        "seg": "破坏锤"
+        "seg": "攻城锤"
       },
       {
         "@xml:lang": "KO-KR",
-        "seg": "철거 망치"
+        "seg": "공성 망치"
       },
       {
         "@xml:lang": "JA-JP",
-        "seg": "解体用ハンマー"
+        "seg": "シージハンマー"
       },
       {
         "@xml:lang": "ZH-TW",
-        "seg": "破壞鎚"
+        "seg": "攻城鎚"
       },
       {
         "@xml:lang": "ID-ID",
-        "seg": "Palu Demolisi"
+        "seg": "Palu Pengepungan"
       },
       {
         "@xml:lang": "TR-TR",
-        "seg": "Yıkım Çekici"
+        "seg": "Kuşatma Çekici"
       },
       {
         "@xml:lang": "AR-SA",
-        "seg": "مطرقة هدم"
+        "seg": "مطرقة الحصار"
       }
     ]
   },
@@ -10366,6 +10366,71 @@
       {
         "@xml:lang": "AR-SA",
         "seg": "منجل"
+      }
+    ]
+  },
+  {
+    "@tuid": "SHOPSUBCATEGORY_SIEGEBANNER",
+    "tuv": [
+      {
+        "@xml:lang": "EN-US",
+        "seg": "Siege Banner"
+      },
+      {
+        "@xml:lang": "DE-DE",
+        "seg": "Belagerungsbanner"
+      },
+      {
+        "@xml:lang": "FR-FR",
+        "seg": "Bannière de siège"
+      },
+      {
+        "@xml:lang": "RU-RU",
+        "seg": "Осадное знамя"
+      },
+      {
+        "@xml:lang": "PL-PL",
+        "seg": "Sztandar Oblężniczy"
+      },
+      {
+        "@xml:lang": "ES-ES",
+        "seg": "Estandarte de asedio"
+      },
+      {
+        "@xml:lang": "PT-BR",
+        "seg": "Estandarte de Cerco"
+      },
+      {
+        "@xml:lang": "IT-IT",
+        "seg": "Stendardi d'assedio"
+      },
+      {
+        "@xml:lang": "ZH-CN",
+        "seg": "攻城战旗"
+      },
+      {
+        "@xml:lang": "KO-KR",
+        "seg": "공성 깃발"
+      },
+      {
+        "@xml:lang": "JA-JP",
+        "seg": "シージバナー"
+      },
+      {
+        "@xml:lang": "ZH-TW",
+        "seg": "攻城戰旗"
+      },
+      {
+        "@xml:lang": "ID-ID",
+        "seg": "Panji Pengepungan"
+      },
+      {
+        "@xml:lang": "TR-TR",
+        "seg": "Kuşatma Sancağı"
+      },
+      {
+        "@xml:lang": "AR-SA",
+        "seg": "راية الحصار"
       }
     ]
   },
