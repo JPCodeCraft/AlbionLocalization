@@ -41,7 +41,8 @@ jobs:
         jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopcategory_localization.json
         jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopsubcategory_localization.json
         jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@DESTINYBOARD_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/destinyboard_localization.json
-        jq -s ".[0] + .[1] + .[2] + .[3]" AlbionLocalization/items_localization.json AlbionLocalization/shopcategory_localization.json AlbionLocalization/shopsubcategory_localization.json AlbionLocalization/destinyboard_localization.json > AlbionLocalization/merged_localization.json
+        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@CRYSTAL_LEAGUE\") and contains(\"TOKEN\")) | .[\"@tuid\"] |= sub(\"@\"; \"ITEMS_\")]" localization.json > AlbionLocalization/crystal_league_token_localization.json
+        jq -s ".[0] + .[1] + .[2] + .[3] + .[4]" AlbionLocalization/items_localization.json AlbionLocalization/shopcategory_localization.json AlbionLocalization/shopsubcategory_localization.json AlbionLocalization/destinyboard_localization.json AlbionLocalization/crystal_league_token_localization.json > AlbionLocalization/merged_localization.json
         
     - name: Move downloaded localization.json to AlbionLocalization
       if: env.CHANGES_DETECTED == 'true'
