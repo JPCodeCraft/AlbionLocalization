@@ -30,6 +30,10 @@ jobs:
           echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
         fi
 
+    - name: Set CHANGES_DETECTED true if manual start
+      run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+      if: github.event_name == 'workflow_dispatch'
+      
     - name: Setup jq
       if: env.CHANGES_DETECTED == 'true'
       run: sudo apt-get install jq
