@@ -28,7 +28,7 @@ def normalizeItems(item):
 | to_entries
 | map(
     .value
-    | if type == "object" then
+    | if type == "object" or type == "array" then
         with_entries(select(.key as $key | excludeItems | index($key) | not))
         | normalizeItems(.)
         | map(
