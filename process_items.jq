@@ -17,13 +17,12 @@ def filterFields:
 # Normalize items to always be arrays and convert strings/numbers to objects
 def normalizeItems:
   if type == "object" then [.]
-  elif type == "string" or type == "number" then [{value: .}]
   else . end;
 
 # Main processing logic
 .items 
 | to_entries
+| map(select(.value | has_any(excludeItems[]) | not))
 | map(.value |= normalizeItems)
-| del(.. | select(keys[] as $k | excludeItems | index($k)))
 | map(.value |= filterFields)
 | from_entries
