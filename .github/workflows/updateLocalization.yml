@@ -18,6 +18,16 @@ jobs:
           token: ${{ secrets.ALBIONLOCALIZATIONUPDATE }}
           ref: ${{ github.ref }}
 
+      - name: Print Current Branch
+        run: |
+          cd AlbionLocalization
+          echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
+      
+      - name: List Files in Repository
+        run: |
+          cd AlbionLocalization
+          ls -la
+
       - name: Download localization.json from original repo
         run: |
           curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/localization.json
