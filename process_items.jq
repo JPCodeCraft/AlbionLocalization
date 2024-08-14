@@ -28,10 +28,10 @@ def normalizeItems(item):
 | to_entries
 | map(
     .value
+    | with_entries(select(.key as $key | excludeItems | index($key) | not))
     | normalizeItems(.)
     | map(
         . as $item
-        | with_entries(select(.key as $key | excludeItems | index($key) | not))
         | filterFields(.)
       )
   )
