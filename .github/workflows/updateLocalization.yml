@@ -1,12 +1,12 @@
-name: Update Localization Files
+name: Update Items and Localization Files
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *" # Runs twice a day
+    - cron: "0 */6 * * *" # Every 6 hours
 
 jobs:
-  update-localization:
+  update-items-localization:
     runs-on: ubuntu-latest
 
     steps:
