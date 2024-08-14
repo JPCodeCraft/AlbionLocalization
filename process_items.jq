@@ -12,7 +12,7 @@ def keepFields: [
 
 # Function to filter fields
 def filterFields:
-  with_entries(select(.key as $key | keepFields | index($key)));
+  with_entries(select(.key as $key | keepFields | index($key) != null));
 
 # Normalize items to always be arrays
 def normalizeItems:
@@ -23,5 +23,5 @@ def normalizeItems:
 | del(.. | select(type == "object" and . != null and (keys[] as $k | excludeItems | index($k))))
 | to_entries
 | map(.value |= normalizeItems)
-| map(.value |= map(filterFields))
+| map(.value |= map(if type == "object" then filterFields else . end))
 | from_entries
