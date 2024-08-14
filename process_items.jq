@@ -16,18 +16,23 @@ def filterFields(item):
   | with_entries(select(.key as $key | keepFields | index($key)));
 
 # Normalize items to always be arrays
-def normalizeItems(items):
-  if items | type == "object" then
-    [items]
+def normalizeItems(item):
+  if item | type == "object" then
+    [item]
   else
-    items
+    item
   end;
 
 # Main processing logic
 .items
-| normalizeItems(.)
+| to_entries
 | map(
-    . as $item
-    | with_entries(select(.key as $key | excludeItems | index($key) | not))
-    | filterFields(.)
+    .value
+    | normalizeItems(.)
+    | map(
+        . as $item
+        | with_entries(select(.key as $key | excludeItems | index($key) | not))
+        | filterFields(.)
+      )
   )
+| flatten
