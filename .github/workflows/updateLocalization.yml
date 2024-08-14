@@ -22,7 +22,7 @@ jobs:
         run: |
           cd AlbionLocalization
           echo "Current branch: $(git rev-parse --abbrev-ref HEAD)"
-      
+
       - name: List Files in Repository
         run: |
           cd AlbionLocalization
@@ -69,12 +69,14 @@ jobs:
       - name: Perform localization JSON Manipulation
         if: env.CHANGES_LOC_DETECTED == 'true'
         run: |
-          jq -c -f process_localization.jq localization.json > AlbionLocalization/merged_localization.json
+          cd AlbionLocalization
+          jq -c -f process_localization.jq ../localization.json > merged_localization.json
 
       - name: Perform items JSON Manipulation
         if: env.CHANGES_ITEMS_DETECTED == 'true'
         run: |
-          jq -c -f process_items.jq items.json > AlbionLocalization/processed_items.json
+          cd AlbionLocalization
+          jq -c -f process_items.jq ../items.json > processed_items.json
 
       - name: Move downloaded localization.json to AlbionLocalization
         if: env.CHANGES_LOC_DETECTED == 'true'
