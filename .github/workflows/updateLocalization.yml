@@ -1,63 +1,86 @@
 name: Update Localization Files
 
-on: 
+on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */12 * * *'  # Runs twice a day
+    - cron: "0 */12 * * *" # Runs twice a day
 
 jobs:
   update-localization:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout AlbionLocalization Repo
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
-        path: 'AlbionLocalization'
-        token: ${{ secrets.ALBIONLOCALIZATIONUPDATE }}
+      - name: Checkout AlbionLocalization Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+          path: "AlbionLocalization"
+          token: ${{ secrets.ALBIONLOCALIZATIONUPDATE }}
 
-    - name: Download localization.json from original repo
-      run: |
-        curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/localization.json
+      - name: Download localization.json from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/localization.json
 
-    - name: Check for Changes in localization.json
-      run: |
-        CHANGED_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
-        if [ -n "$CHANGED_FILES" ]; then
-          echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
-        else
-          echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
-        fi
+      - name: Download items.json from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/items.json
 
-    - name: Set CHANGES_DETECTED true if manual start
-      run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
-      if: github.event_name == 'workflow_dispatch'
-      
-    - name: Setup jq
-      if: env.CHANGES_DETECTED == 'true'
-      run: sudo apt-get install jq
+      - name: Check for Changes in localization.json
+        run: |
+          CHANGED_LOC_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
+          if [ -n "$CHANGED_LOC_FILES" ]; then
+            echo "CHANGES_LOC_DETECTED=true" >> $GITHUB_ENV
+          else
+            echo "CHANGES_LOC_DETECTED=false" >> $GITHUB_ENV
+          fi
 
-    - name: Perform JSON Manipulation
-      if: env.CHANGES_DETECTED == 'true'
-      run: |
-        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@ITEMS_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/items_localization.json
-        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopcategory_localization.json
-        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@MARKETPLACEGUI_ROLLOUT_SHOPSUBCATEGORY_\")) | .[\"@tuid\"] |= sub(\"^@MARKETPLACEGUI_ROLLOUT_\"; \"\")]" localization.json > AlbionLocalization/shopsubcategory_localization.json
-        jq "[.tmx.body.tu[] | select(.\"@tuid\" | startswith(\"@DESTINYBOARD_\")) | .[\"@tuid\"] |= sub(\"@\"; \"\")]" localization.json > AlbionLocalization/destinyboard_localization.json
-        jq -s ".[0] + .[1] + .[2] + .[3]" AlbionLocalization/items_localization.json AlbionLocalization/shopcategory_localization.json AlbionLocalization/shopsubcategory_localization.json AlbionLocalization/destinyboard_localization.json > AlbionLocalization/merged_localization.json
-        
-    - name: Move downloaded localization.json to AlbionLocalization
-      if: env.CHANGES_DETECTED == 'true'
-      run: |
-        mv localization.json AlbionLocalization/localization.json
+      - name: Check for Changes in items.json
+        run: |
+          CHANGED_ITEMS_FILES=$(diff items.json AlbionLocalization/items.json || true)
+          if [ -n "$CHANGED_ITEMS_FILES" ]; then
+            echo "CHANGES_ITEMS_DETECTED=true" >> $GITHUB_ENV
+          else
+            echo "CHANGES_ITEMS_DETECTED=false" >> $GITHUB_ENV
+          fi
 
-    - name: Commit and Push to AlbionLocalization Repo
-      if: env.CHANGES_DETECTED == 'true'
-      run: |
-        cd AlbionLocalization
-        git config --global user.email "albionfreemarket@gmail.com"
-        git config --global user.name "Albion Free Market"
-        git add .
-        git commit -m "Update localization files"
-        git push
+      - name: Set CHANGES_LOC_DETECTED true if manual start
+        run: echo "CHANGES_LOC_DETECTED=true" >> $GITHUB_ENV
+        if: github.event_name == 'workflow_dispatch'
+
+      - name: Set CHANGES_ITEMS_DETECTED true if manual start
+        run: echo "CHANGES_ITEMS_DETECTED=true" >> $GITHUB_ENV
+        if: github.event_name == 'workflow_dispatch'
+
+      - name: Setup jq
+        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
+        run: sudo apt-get install jq
+
+      - name: Perform localization JSON Manipulation
+        if: env.CHANGES_LOC_DETECTED == 'true'
+        run: |
+          jq -c -f process_localization.jq localization.json > AlbionLocalization/merged_localization.json
+
+      - name: Perform items JSON Manipulation
+        if: env.CHANGES_ITEMS_DETECTED == 'true'
+        run: |
+          jq -c -f process_items.jq items.json > AlbionLocalization/processed_items.json
+
+      - name: Move downloaded localization.json to AlbionLocalization
+        if: env.CHANGES_LOC_DETECTED == 'true'
+        run: |
+          mv localization.json AlbionLocalization/localization.json
+
+      - name: Move downloaded items.json to AlbionLocalization
+        if: env.CHANGES_ITEMS_DETECTED == 'true'
+        run: |
+          mv items.json AlbionLocalization/items.json
+
+      - name: Commit and Push to AlbionLocalization Repo
+        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
+        run: |
+          cd AlbionLocalization
+          git config --global user.email "albionfreemarket@gmail.com"
+          git config --global user.name "Albion Free Market"
+          git add .
+          git commit -m "Update files"
+          git push
