@@ -22,7 +22,7 @@ def normalizeItems:
 # Main processing logic
 .items 
 | to_entries
-| map(select(.value | keys | any(. as $k | excludeItems | contains([$k])) | not))
 | map(.value |= normalizeItems)
+| map(select(. | keys | any(. as $k | excludeItems | contains([$k])) | not))
 | map(.value |= filterFields)
 | from_entries
