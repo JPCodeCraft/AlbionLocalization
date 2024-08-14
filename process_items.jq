@@ -27,6 +27,7 @@ def normalizeItems(items):
 .items
 | normalizeItems(.)
 | map(
-    with_entries(select(.key as $key | excludeItems | index($key) | not))
+    . as $item
+    | with_entries(select(.key as $key | excludeItems | index($key) | not))
     | filterFields(.)
   )
