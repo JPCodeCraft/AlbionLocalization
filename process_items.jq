@@ -14,14 +14,15 @@ def keepFields: [
 def filterFields:
   with_entries(select(.key as $key | keepFields | index($key) != null));
 
-# Normalize items to always be arrays
+# Normalize items to always be arrays and convert strings/numbers to objects
 def normalizeItems:
-  if type == "object" then [.] else . end;
+  if type == "object" then [.] 
+  else . end;
 
 # Main processing logic
 .items 
-| del(.. | select(type == "object" and . != null and (keys[] as $k | excludeItems | index($k))))
 | to_entries
 | map(.value |= normalizeItems)
+| del(.. | select(keys[] as $k | excludeItems | index($k)))
 | map(.value |= filterFields)
 | from_entries
