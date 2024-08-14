@@ -16,6 +16,7 @@ jobs:
           fetch-depth: 1
           path: "AlbionLocalization"
           token: ${{ secrets.ALBIONLOCALIZATIONUPDATE }}
+          ref: ${{ github.ref }}
 
       - name: Download localization.json from original repo
         run: |
@@ -83,4 +84,4 @@ jobs:
           git config --global user.name "Albion Free Market"
           git add .
           git commit -m "Update files"
-          git push
+          git push origin ${{ github.ref }}
