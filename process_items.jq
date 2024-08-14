@@ -18,4 +18,4 @@ def filterFields(item):
 # Main processing logic
 .items
 | with_entries(select(.key as $key | excludeItems | index($key) | not))
-| .[] | filterFields
+| .[] | filterFields(.)
