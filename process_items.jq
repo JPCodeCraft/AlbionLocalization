@@ -20,7 +20,7 @@ def normalizeItems:
 
 # Main processing logic
 .items 
-| del(.. | select(type == "object" and (keys[] as $k | excludeItems | index($k))))
+| del(.. | select(type == "object" and . != null and (keys[] as $k | excludeItems | index($k))))
 | to_entries
 | map(.value |= normalizeItems)
 | map(.value |= map(filterFields))
