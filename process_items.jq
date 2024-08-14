@@ -25,7 +25,7 @@ def normalizeItems(items):
 
 # Main processing logic
 .items
-| normalizeItems
+| normalizeItems(.)
 | map(
     with_entries(select(.key as $key | excludeItems | index($key) | not))
     | filterFields(.)
