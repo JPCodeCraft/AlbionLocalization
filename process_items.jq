@@ -24,19 +24,9 @@ def normalizeItems(item):
   end;
 
 # Main processing logic
-.items
+.items 
+| del(.. | select(keys[] as $k | excludeItems | index($k)))
 | to_entries
-| map(
-    .value
-    | if type == "object" or type == "array" then
-        with_entries(select(.key as $key | excludeItems | index($key) | not))
-        | normalizeItems(.)
-        | map(
-            . as $item
-            | filterFields(.)
-          )
-      else
-        empty
-      end
-  )
-| flatten
+| map(.value |= normalizeItems)
+| map(.value |= map(filterFields))
+| from_entries
