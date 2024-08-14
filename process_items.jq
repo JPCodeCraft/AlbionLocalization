@@ -16,7 +16,8 @@ def filterFields:
 
 # Normalize items to always be arrays and convert strings/numbers to objects
 def normalizeItems:
-  if type == "object" then [.] 
+  if type == "object" then [.]
+  elif type == "string" or type == "number" then [{value: .}]
   else . end;
 
 # Main processing logic
