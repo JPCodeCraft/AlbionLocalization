@@ -11,17 +11,12 @@ def keepFields: [
 ];
 
 # Function to filter fields
-def filterFields(item):
-  item
-  | with_entries(select(.key as $key | keepFields | index($key)));
+def filterFields:
+  with_entries(select(.key as $key | keepFields | index($key)));
 
 # Normalize items to always be arrays
-def normalizeItems(item):
-  if item | type == "object" then
-    [item]
-  else
-    item
-  end;
+def normalizeItems:
+  if type == "object" then [.] else . end;
 
 # Main processing logic
 .items 
