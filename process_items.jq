@@ -28,11 +28,15 @@ def normalizeItems(item):
 | to_entries
 | map(
     .value
-    | with_entries(select(.key as $key | excludeItems | index($key) | not))
-    | normalizeItems(.)
-    | map(
-        . as $item
-        | filterFields(.)
-      )
+    | if type == "object" then
+        with_entries(select(.key as $key | excludeItems | index($key) | not))
+        | normalizeItems(.)
+        | map(
+            . as $item
+            | filterFields(.)
+          )
+      else
+        empty
+      end
   )
 | flatten
