@@ -60,23 +60,7 @@ jobs:
 
       - name: Set CHANGES_ITEMS_DETECTED true if manual start
         run: echo "CHANGES_ITEMS_DETECTED=true" >> $GITHUB_ENV
-        if: github.event_name == 'workflow_dispatch'
-
-      - name: Setup jq
-        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
-        run: sudo apt-get install jq
-
-      - name: Perform localization JSON Manipulation
-        if: env.CHANGES_LOC_DETECTED == 'true'
-        run: |
-          cd AlbionLocalization
-          jq -c -f process_localization.jq ../localization.json > merged_localization.json
-
-      - name: Perform items JSON Manipulation
-        if: env.CHANGES_ITEMS_DETECTED == 'true'
-        run: |
-          cd AlbionLocalization
-          jq -c -f process_items.jq ../items.json > processed_items.json
+        if: github.event_name == 'workflow_dispatch'      
 
       - name: Move downloaded localization.json to AlbionLocalization
         if: env.CHANGES_LOC_DETECTED == 'true'
@@ -87,6 +71,22 @@ jobs:
         if: env.CHANGES_ITEMS_DETECTED == 'true'
         run: |
           mv items.json AlbionLocalization/items.json
+
+      - name: Setup jq
+        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
+        run: sudo apt-get install jq
+
+      - name: Perform localization JSON Manipulation
+        if: env.CHANGES_LOC_DETECTED == 'true'
+        run: |
+          cd AlbionLocalization
+          jq -c -f process_localization.jq localization.json > merged_localization.json
+
+      - name: Perform items JSON Manipulation
+        if: env.CHANGES_ITEMS_DETECTED == 'true'
+        run: |
+          cd AlbionLocalization
+          jq -c -f process_items.jq items.json > processed_items.json
 
       - name: Commit and Push to AlbionLocalization Repo
         if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'

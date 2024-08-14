@@ -10,19 +10,32 @@ def keepFields: [
   "@maxqualitylevel", "@slottype"
 ];
 
-# Function to filter fields
-def filterFields:
-  with_entries(select(.key as $key | keepFields | index($key) != null));
+# Remove the excluded items from .items
+.items |= with_entries(
+    select(.key as $k | excludeItems | index($k) | not)
+  )
 
-# Normalize items to always be arrays and convert strings/numbers to objects
-def normalizeItems:
-  if type == "object" then [.]
-  else . end;
+# If the entry is an object, convert it to an object that has as value an array of objects
+| .items | with_entries(
+    if .key == "shopcategories" then
+      .
+    else
+      if .value | type == "object" then
+        .value = [.value]
+      else
+        .
+      end
+    end
+  )
 
-# Main processing logic
-.items 
-| to_entries
-| map(.value |= normalizeItems)
-| map(select(. | keys | any(. as $k | excludeItems | contains([$k])) | not))
-| map(.value |= filterFields)
-| from_entries
+| with_entries(
+    if .key == "shopcategories" then
+      .
+    else
+      .value |= map(
+        with_entries(
+          select(.key as $k | keepFields | index($k))
+        )
+      )
+    end
+  )
