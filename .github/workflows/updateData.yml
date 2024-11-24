@@ -36,55 +36,65 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/items.json
 
+      - name: Download loot.json from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/loot.json
+
       - name: Check for Changes in localization.json
         run: |
           CHANGED_LOC_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
           if [ -n "$CHANGED_LOC_FILES" ]; then
-            echo "CHANGES_LOC_DETECTED=true" >> $GITHUB_ENV
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           else
-            echo "CHANGES_LOC_DETECTED=false" >> $GITHUB_ENV
+            echo "CHANGES_DETECTED=false" >> $GITHUB_ENV
           fi
 
       - name: Check for Changes in items.json
         run: |
           CHANGED_ITEMS_FILES=$(diff items.json AlbionLocalization/items.json || true)
           if [ -n "$CHANGED_ITEMS_FILES" ]; then
-            echo "CHANGES_ITEMS_DETECTED=true" >> $GITHUB_ENV
-          else
-            echo "CHANGES_ITEMS_DETECTED=false" >> $GITHUB_ENV
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
-      - name: Set CHANGES_LOC_DETECTED true if manual start
-        run: echo "CHANGES_LOC_DETECTED=true" >> $GITHUB_ENV
+      - name: Check for Changes in loot.json
+        run: |
+          CHANGED_LOOT_FILES=$(diff loot.json AlbionLocalization/loot.json || true)
+          if [ -n "$CHANGED_LOOT_FILES" ]; then
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          fi
+
+      - name: Set CHANGES_DETECTED true if manual start
+        run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
         if: github.event_name == 'workflow_dispatch'
 
-      - name: Set CHANGES_ITEMS_DETECTED true if manual start
-        run: echo "CHANGES_ITEMS_DETECTED=true" >> $GITHUB_ENV
-        if: github.event_name == 'workflow_dispatch'      
-
       - name: Move downloaded localization.json to AlbionLocalization
-        if: env.CHANGES_LOC_DETECTED == 'true'
+        if: env.CHANGES_DETECTED == 'true'
         run: |
           mv localization.json AlbionLocalization/localization.json
 
       - name: Move downloaded items.json to AlbionLocalization
-        if: env.CHANGES_ITEMS_DETECTED == 'true'
+        if: env.CHANGES_DETECTED == 'true'
         run: |
           mv items.json AlbionLocalization/items.json
+
+      - name: Move downloaded loot.json to AlbionLocalization
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          mv loot.json AlbionLocalization/loot.json
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Perform JSON Manipulation
-        if: env.CHANGES_LOC_DETECTED == 'true'
+        if: env.CHANGES_DETECTED == 'true'
         run: |
           cd AlbionLocalization
           python process.py
 
       - name: Commit and Push to AlbionLocalization Repo
-        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
+        if: env.CHANGES_DETECTED == 'true'
         run: |
           cd AlbionLocalization
           git config --global user.email "albionfreemarket@gmail.com"
