@@ -72,21 +72,16 @@ jobs:
         run: |
           mv items.json AlbionLocalization/items.json
 
-      - name: Setup jq
-        if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
-        run: sudo apt-get install jq
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
 
-      - name: Perform localization JSON Manipulation
+      - name: Perform JSON Manipulation
         if: env.CHANGES_LOC_DETECTED == 'true'
         run: |
           cd AlbionLocalization
-          jq -c -f process_localization.jq localization.json > merged_localization.json
-
-      - name: Perform items JSON Manipulation
-        if: env.CHANGES_ITEMS_DETECTED == 'true'
-        run: |
-          cd AlbionLocalization
-          jq -c -f process_items.jq items.json > processed_items.json
+          python process.py
 
       - name: Commit and Push to AlbionLocalization Repo
         if: env.CHANGES_LOC_DETECTED == 'true' || env.CHANGES_ITEMS_DETECTED == 'true'
