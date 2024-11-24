@@ -11,7 +11,8 @@ KEEP_FIELDS = [
     "lootlist", "@maxfame", "enchantments", "@itempower", "@combatspecachievement",
     "@maxqualitylevel", "@slottype", "harvest",
     "@placefame", "@kind", "@activefarmfocuscost", "@activefarmmaxcycles",
-    "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus"
+    "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus",
+    "grownitem", "consumption", "products"
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:

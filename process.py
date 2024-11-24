@@ -43,16 +43,26 @@ def find_loot_by_name(loot_data, loot_name):
     return None
 
 for item in items['farmableitem']:
-    if 'harvest' not in item:
-        continue
-    loot_list_name = item['harvest']['@lootlist']
-    matched_loot = find_loot_by_name(loot, loot_list_name)
-    
-    if matched_loot is None:
-        print(f"Warning: No loot found for {loot_list_name}")
-        continue
-        
-    item['harvest']['@lootlist'] = matched_loot
+            
+    if 'harvest' in item:
+        harvest_loot_list_name = item['harvest'].get('@lootlist')
+        if harvest_loot_list_name:
+            harvest_matched_loot = find_loot_by_name(loot, harvest_loot_list_name)
+            if harvest_matched_loot is None:
+                print(f"Warning: No loot found for {harvest_loot_list_name}")
+                continue
+            item['harvest']['@lootlist'] = harvest_matched_loot
+            
+    if 'products' in item:
+        products = item.get('products', {})
+        product = products.get('product', {})
+        products_loot_list_name = product.get('@lootlist')
+        if products_loot_list_name:
+            products_matched_loot = find_loot_by_name(loot, products_loot_list_name)
+            if products_matched_loot is None:
+                print(f"Warning: No loot found for {products_loot_list_name}")
+                continue
+            item['products']['product']['@lootlist'] = products_matched_loot
     
 # Save items with loot to processed_items.json
 with open("processed_items.json", "w", encoding="utf-8") as file:
