@@ -7,7 +7,9 @@ def keepFields: [
   "@baselootamount", "@famevalue", "@itemvalue", "@tier", "@weight", "@durability",
   "@enchantmentlevel", "craftingrequirements", "@destinycraftfamefactor", "famefillingmissions",
   "lootlist", "@maxfame", "enchantments", "@itempower", "@combatspecachievement",
-  "@maxqualitylevel", "@slottype"
+  "@maxqualitylevel", "@slottype", "@harvest",
+  "@placefame", "@kind", "@activefarmfocuscost", "@activefarmmaxcycles",
+  "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus"
 ];
 
 # Remove the excluded items from .items
