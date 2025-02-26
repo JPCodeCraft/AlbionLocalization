@@ -97,7 +97,7 @@ jobs:
         if: env.CHANGES_DETECTED == 'true'
         run: |
           cd AlbionLocalization
-          git config --global user.email "albionfreemarket@gmail.com"
+          git config --global user.email "jpcode@craft.com"
           git config --global user.name "Albion Free Market"
           git add .
           git commit -m "Update files"
