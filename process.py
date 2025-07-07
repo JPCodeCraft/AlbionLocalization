@@ -1,7 +1,9 @@
 import json
 from process_items import process_items
 from process_localization import process_localization
+from process_spells import process_spells
 
+# MARK: Items
 # Load items.json
 with open("items.json", "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -13,7 +15,19 @@ processed_data = process_items(data)
 with open("processed_items.json", "w", encoding="utf-8") as file:
     json.dump(processed_data, file, separators=(',', ':'), ensure_ascii=False)
     
+# MARK: Spells
+# Load spells.json
+with open("spells.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
 
+# Process spells
+processed_data = process_spells(data)
+
+# Save processed spells to processed_spells.json
+with open("processed_spells.json", "w", encoding="utf-8") as file:
+    json.dump(processed_data, file, separators=(',', ':'), ensure_ascii=False)
+    
+# MARK: Localization
 # Load localization.json
 with open("localization.json", "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -25,7 +39,7 @@ processed_data = process_localization(data)
 with open("merged_localization.json", "w", encoding="utf-8") as file:
     json.dump(processed_data, file, separators=(',', ':'), ensure_ascii=False)
     
-    
+# MARK: Loot
 # Load loot.json
 with open("loot.json", "r", encoding="utf-8") as file:
     loot = json.load(file)

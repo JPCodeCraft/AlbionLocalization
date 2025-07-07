@@ -27,5 +27,12 @@ def process_localization(data):
         if item['@tuid'].startswith('@DESTINYBOARD_TITLE_')
     ]
 
+    # Process spell entries
+    spell_entries = [
+        {**item, '@tuid': item['@tuid'].replace('@', '')}
+        for item in data['tmx']['body']['tu']
+        if item['@tuid'].startswith('@SPELLS_') and not item['@tuid'].endswith('_DESC')
+    ]
+
     # Combine all processed entries
-    return items + shop_categories + shop_subcategories + destiny_board
+    return items + shop_categories + shop_subcategories + destiny_board + spell_entries

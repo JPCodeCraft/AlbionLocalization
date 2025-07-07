@@ -40,6 +40,10 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/loot.json
 
+      - name: Download spells.json from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/spells.json
+
       - name: Check for Changes in localization.json
         run: |
           CHANGED_LOC_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
@@ -63,6 +67,13 @@ jobs:
             echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
+      - name: Check for Changes in spells.json
+        run: |
+          CHANGED_SPELLS_FILES=$(diff spells.json AlbionLocalization/spells.json || true)
+          if [ -n "$CHANGED_SPELLS_FILES" ]; then
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          fi
+
       - name: Set CHANGES_DETECTED true if manual start
         run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
         if: github.event_name == 'workflow_dispatch'
@@ -81,6 +92,11 @@ jobs:
         if: env.CHANGES_DETECTED == 'true'
         run: |
           mv loot.json AlbionLocalization/loot.json
+
+      - name: Move downloaded spells.json to AlbionLocalization
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          mv spells.json AlbionLocalization/spells.json
 
       - name: Set up Python
         uses: actions/setup-python@v4

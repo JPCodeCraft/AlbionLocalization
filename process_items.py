@@ -12,7 +12,7 @@ KEEP_FIELDS = [
     "@maxqualitylevel", "@slottype", "harvest", "@foodcategory", "@nutrition",
     "@placefame", "@kind", "@activefarmfocuscost", "@activefarmmaxcycles",
     "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus",
-    "grownitem", "consumption", "products", "@unlockedtoplace", "@unlockedtocraft"
+    "grownitem", "consumption", "products", "@unlockedtoplace", "@unlockedtocraft", "craftingspelllist"
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:
