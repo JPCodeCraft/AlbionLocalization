@@ -31,8 +31,18 @@ def process_spells(data: Dict) -> List[Dict]:
     
     # Collect all spells into a flat list
     flat_spells = []
-    for value in items.values():
+    for key, value in items.items():
         items_array = ensure_array(value)
-        flat_spells.extend(filter_fields(item) for item in items_array)
+        for item in items_array:
+            spell = filter_fields(item)
+            if key == "passivespell":
+                spell["@spelltype"] = "passive"
+            elif key == "activespell":
+                spell["@spelltype"] = "active"
+            elif key == "togglespell":
+                spell["@spelltype"] = "toggle"
+            else:
+                spell["@spelltype"] = "undefined"
+            flat_spells.append(spell)
     
     return flat_spells
