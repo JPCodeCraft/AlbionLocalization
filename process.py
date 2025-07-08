@@ -7,9 +7,13 @@ from process_spells import process_spells
 # Load items.json
 with open("items.json", "r", encoding="utf-8") as file:
     data = json.load(file)
+
+# Load transformations data
+with open('transformations.json', 'r', encoding='utf-8') as f:
+    transformations_data = json.load(f)
     
 # Process items
-processed_data = process_items(data)
+processed_data = process_items(data, transformations_data)
 
 # Save processed items to processed_items.json
 with open("processed_items.json", "w", encoding="utf-8") as file:
