@@ -9,7 +9,7 @@ KEEP_FIELDS = [
     "@baselootamount", "@famevalue", "@itemvalue", "@tier", "@weight", "@durability",
     "@enchantmentlevel", "craftingrequirements", "@destinycraftfamefactor", "famefillingmissions",
     "lootlist", "@maxfame", "enchantments", "@itempower", "@combatspecachievement",
-    "@maxqualitylevel", "@slottype", "harvest", "@foodcategory", "@nutrition", "@twohanded",
+    "@maxqualitylevel", "@slottype", "harvest", "@foodcategory", "@nutrition", "@twohanded", "@showinmarketplace"
     "@placefame", "@kind", "@activefarmfocuscost", "@activefarmmaxcycles",
     "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus",
     "grownitem", "consumption", "products", "@unlockedtoplace", "@unlockedtocraft", "craftingspelllist", "@transformation"
