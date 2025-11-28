@@ -2,6 +2,7 @@ import json
 from process_items import process_items
 from process_localization import process_localization
 from process_spells import process_spells
+from process_journal import process_journal
 
 # MARK: Items
 # Load items.json
@@ -29,6 +30,18 @@ processed_data = process_spells(data)
 
 # Save processed spells to processed_spells.json
 with open("processed_spells.json", "w", encoding="utf-8") as file:
+    json.dump(processed_data, file, separators=(',', ':'), ensure_ascii=False)
+
+# MARK: Journal
+# Load albionjournal.json
+with open("albionjournal.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
+
+# Process journal
+processed_data = process_journal(data)
+
+# Save processed journal to processed_journal.json
+with open("processed_journal.json", "w", encoding="utf-8") as file:
     json.dump(processed_data, file, separators=(',', ':'), ensure_ascii=False)
     
 # MARK: Localization

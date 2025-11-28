@@ -48,6 +48,10 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/transformations.json
 
+      - name: Download albionjournal.json from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/albionjournal.json
+
       - name: Check for Changes in localization.json
         run: |
           CHANGED_LOC_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
@@ -85,6 +89,13 @@ jobs:
             echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
+      - name: Check for Changes in albionjournal.json
+        run: |
+          CHANGED_JOURNAL_FILES=$(diff albionjournal.json AlbionLocalization/albionjournal.json || true)
+          if [ -n "$CHANGED_JOURNAL_FILES" ]; then
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          fi
+
       - name: Set CHANGES_DETECTED true if manual start
         run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
         if: github.event_name == 'workflow_dispatch'
@@ -113,6 +124,11 @@ jobs:
         if: env.CHANGES_DETECTED == 'true'
         run: |
           mv transformations.json AlbionLocalization/transformations.json
+
+      - name: Move downloaded albionjournal.json to AlbionLocalization
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          mv albionjournal.json AlbionLocalization/albionjournal.json
 
       - name: Set up Python
         uses: actions/setup-python@v4
