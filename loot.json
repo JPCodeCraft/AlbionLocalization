@@ -25355,6 +25355,28 @@
         }
       },
       {
+        "@name": "EVENT_ACTIVITY_HUB_HALLOWEEN_LOOT",
+        "Item": [
+          {
+            "@type": "UNIQUE_UNLOCK_SKIN_HORSE_UNDEAD_HALLOWEEN"
+          },
+          {
+            "@type": "UNIQUE_UNLOCK_SKIN_DONKEY_HALLOWEEN"
+          },
+          {
+            "@type": "UNIQUE_CONSUMABLE_EVENT_HALLOWEEN_CANDY_2025"
+          }
+        ]
+      },
+      {
+        "@name": "EVENT_HALLOWEEN_DECAYING_LOOT",
+        "Item": {
+          "@type": "UNIQUE_CONSUMABLE_EVENT_HALLOWEEN_CANDY_2025",
+          "@chance": "1",
+          "@amount": "1-2"
+        }
+      },
+      {
         "@name": "EVENT_HALLOWEEN_2017_LOOT",
         "Item": {
           "@type": "QUESTITEM_TOKEN_EVENT_HALLOWEEN_2017",
@@ -100293,6 +100315,151 @@
         }
       },
       {
+        "@name": "T4_FACTION_CHEST_SMALL_UNCOMMON",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_SMALL_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_SMALL_UNCOMMON",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_SMALL_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_SMALL_UNCOMMON",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_SMALL_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_SMALL_UNCOMMON",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_SMALL_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T4_FACTION_CHEST_SMALL_RARE",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_SMALL_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_SMALL_RARE",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_SMALL_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_SMALL_RARE",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_SMALL_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_SMALL_RARE",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_SMALL_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T4_FACTION_CHEST_SMALL_LEGENDARY",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_SMALL_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_SMALL_LEGENDARY",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_SMALL_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_SMALL_LEGENDARY",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_SMALL_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_SMALL_LEGENDARY",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_SMALL_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T4_FACTION_CHEST_MEDIUM_UNCOMMON",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_MEDIUM_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_MEDIUM_UNCOMMON",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_MEDIUM_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_MEDIUM_UNCOMMON",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_MEDIUM_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_MEDIUM_UNCOMMON",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_MEDIUM_CAMP_UNCOMMON"
+        }
+      },
+      {
+        "@name": "T4_FACTION_CHEST_MEDIUM_RARE",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_MEDIUM_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_MEDIUM_RARE",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_MEDIUM_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_MEDIUM_RARE",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_MEDIUM_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_MEDIUM_RARE",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_MEDIUM_CAMP_RARE"
+        }
+      },
+      {
+        "@name": "T4_FACTION_CHEST_MEDIUM_LEGENDARY",
+        "LootListReference": {
+          "@name": "T4_DYNAMIC_MEDIUM_CAMP_LEGENDARY",
+          "@chance": "20"
+        }
+      },
+      {
+        "@name": "T5_FACTION_CHEST_MEDIUM_LEGENDARY",
+        "LootListReference": {
+          "@name": "T5_DYNAMIC_MEDIUM_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T6_FACTION_CHEST_MEDIUM_LEGENDARY",
+        "LootListReference": {
+          "@name": "T6_DYNAMIC_MEDIUM_CAMP_LEGENDARY"
+        }
+      },
+      {
+        "@name": "T7_FACTION_CHEST_MEDIUM_LEGENDARY",
+        "LootListReference": {
+          "@name": "T7_DYNAMIC_MEDIUM_CAMP_LEGENDARY"
+        }
+      },
+      {
         "@name": "LOOT_CONQUERORSCHALLENGE_SILVER",
         "OR": {
           "AND": [
@@ -104178,6 +104345,88 @@
             },
             {
               "@type": "T8_ARTEFACT_2H_SHAPESHIFTER_CRYSTAL",
+              "@weight": "1",
+              "@amount": "1"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CRYSTAL_WEAPON_ARTEFACTS_S28",
+        "OR": {
+          "Item": [
+            {
+              "@type": "T4_ARTEFACT_OFF_TOME_CRYSTAL",
+              "@weight": "81",
+              "@amount": "1"
+            },
+            {
+              "@type": "T5_ARTEFACT_OFF_TOME_CRYSTAL",
+              "@weight": "27",
+              "@amount": "1"
+            },
+            {
+              "@type": "T6_ARTEFACT_OFF_TOME_CRYSTAL",
+              "@weight": "9",
+              "@amount": "1"
+            },
+            {
+              "@type": "T7_ARTEFACT_OFF_TOME_CRYSTAL",
+              "@weight": "3",
+              "@amount": "1"
+            },
+            {
+              "@type": "T8_ARTEFACT_OFF_TOME_CRYSTAL",
+              "@weight": "1",
+              "@amount": "1"
+            },
+            {
+              "@type": "T4_ARTEFACT_OFF_SHIELD_CRYSTAL",
+              "@weight": "81",
+              "@amount": "1"
+            },
+            {
+              "@type": "T5_ARTEFACT_OFF_SHIELD_CRYSTAL",
+              "@weight": "27",
+              "@amount": "1"
+            },
+            {
+              "@type": "T6_ARTEFACT_OFF_SHIELD_CRYSTAL",
+              "@weight": "9",
+              "@amount": "1"
+            },
+            {
+              "@type": "T7_ARTEFACT_OFF_SHIELD_CRYSTAL",
+              "@weight": "3",
+              "@amount": "1"
+            },
+            {
+              "@type": "T8_ARTEFACT_OFF_SHIELD_CRYSTAL",
+              "@weight": "1",
+              "@amount": "1"
+            },
+            {
+              "@type": "T4_ARTEFACT_OFF_TORCH_CRYSTAL",
+              "@weight": "81",
+              "@amount": "1"
+            },
+            {
+              "@type": "T5_ARTEFACT_OFF_TORCH_CRYSTAL",
+              "@weight": "27",
+              "@amount": "1"
+            },
+            {
+              "@type": "T6_ARTEFACT_OFF_TORCH_CRYSTAL",
+              "@weight": "9",
+              "@amount": "1"
+            },
+            {
+              "@type": "T7_ARTEFACT_OFF_TORCH_CRYSTAL",
+              "@weight": "3",
+              "@amount": "1"
+            },
+            {
+              "@type": "T8_ARTEFACT_OFF_TORCH_CRYSTAL",
               "@weight": "1",
               "@amount": "1"
             }
@@ -114309,6 +114558,128 @@
         }
       },
       {
+        "@name": "AOCP_SPECIFIC_ITEMS",
+        "OR": {
+          "OR": [
+            {
+              "@weight": "2",
+              "LootListReference": [
+                {
+                  "@name": "AOCP_FEATURED_ITEMS",
+                  "@weight": "3"
+                },
+                {
+                  "@name": "AOCP_OTHER_ITEMS",
+                  "@weight": "2"
+                }
+              ]
+            },
+            {
+              "@weight": "23",
+              "Item": [
+                {
+                  "@type": "UNIQUE_TOKEN_AOCP",
+                  "@amount": "1",
+                  "@weight": "28"
+                },
+                {
+                  "@type": "UNIQUE_TOKEN_AOCP",
+                  "@amount": "2",
+                  "@weight": "9"
+                },
+                {
+                  "@type": "UNIQUE_TOKEN_AOCP",
+                  "@amount": "5",
+                  "@weight": "2"
+                },
+                {
+                  "@type": "UNIQUE_TOKEN_AOCP",
+                  "@amount": "10",
+                  "@weight": "1"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "@name": "AOCP_FEATURED_ITEMS",
+        "OR": {
+          "Item": [
+            {
+              "@type": "UNIQUE_UNLOCK_HEAD_VANITY_KNIGHT_AOCP_NON_TRADABLE",
+              "@amount": "1"
+            },
+            {
+              "@type": "UNIQUE_UNLOCK_ARMOR_VANITY_KNIGHT_AOCP_NON_TRADABLE",
+              "@amount": "1"
+            },
+            {
+              "@type": "UNIQUE_UNLOCK_SHOES_VANITY_KNIGHT_AOCP_NON_TRADABLE",
+              "@amount": "1"
+            },
+            {
+              "@type": "UNIQUE_UNLOCK_CAPE_VANITY_KNIGHT_AOCP_NON_TRADABLE",
+              "@amount": "1"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "AOCP_OTHER_ITEMS",
+        "OR": {
+          "Item": {
+            "@type": "UNIQUE_UNLOCK_DIREBOAR_FIBER_GATHERER",
+            "@weight": "3"
+          },
+          "OR": {
+            "@weight": "12",
+            "Item": [
+              {
+                "@type": "UNIQUE_UNLOCK_OFF_VANITY_PUMPKIN_HAPPY_NON_TRADABLE",
+                "@amount": "1"
+              },
+              {
+                "@type": "UNIQUE_UNLOCK_OFF_VANITY_PUMPKIN_SAD_NON_TRADABLE",
+                "@amount": "1"
+              },
+              {
+                "@type": "UNIQUE_UNLOCK_OFF_VANITY_PUMPKIN_ANGRY_NON_TRADABLE",
+                "@amount": "1"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@name": "COMMUNITY_CHEST_AOCP",
+        "AND": {
+          "LootListReference": [
+            {
+              "@name": "COMMUNITY_CHEST_GENERIC"
+            },
+            {
+              "@name": "AOCP_SPECIFIC_ITEMS",
+              "@chance": "0.5"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "COMMUNITY_CHEST_AOCP_PREMIUM",
+        "AND": {
+          "LootListReference": [
+            {
+              "@name": "COMMUNITY_CHEST_GENERIC_PREMIUM"
+            },
+            {
+              "@name": "AOCP_SPECIFIC_ITEMS",
+              "@chance": "0.5"
+            }
+          ]
+        }
+      },
+      {
         "@name": "T4_WOOD_SKILLBOOK",
         "Item": {
           "@type": "T4_SKILLBOOK_GATHER_WOOD",
@@ -115541,6 +115912,45 @@
         ]
       },
       {
+        "@name": "T4_DYNAMIC_MEDIUM_CAMP_UNCOMMON",
+        "Item": {
+          "@type": "T1_SILVERBAG_NONTRADABLE",
+          "@chance": "13.104125",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "T4_FRAGMENT_LOOT",
+            "@chance": "43.945160"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.002440"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.040086"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "0.546004"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "58.95169"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "14.345757"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "2.367337"
+          }
+        ]
+      },
+      {
         "@name": "T5_DYNAMIC_MEDIUM_CAMP_UNCOMMON",
         "Item": {
           "@type": "T1_SILVERBAG_NONTRADABLE",
@@ -115709,6 +116119,45 @@
           {
             "@name": "T8_DIRECTLOOTDROP_WHITE",
             "@chance": "4.937231"
+          }
+        ]
+      },
+      {
+        "@name": "T4_DYNAMIC_MEDIUM_CAMP_RARE",
+        "Item": {
+          "@type": "T1_SILVERBAG_NONTRADABLE",
+          "@chance": "39.312378",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "FRAGMENT_LOOT_10X",
+            "@chance": "13.183547"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.007316"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.120263"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "1.638016"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "176.855075"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "43.037276"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "7.102014"
           }
         ]
       },
@@ -115885,6 +116334,45 @@
         ]
       },
       {
+        "@name": "T4_DYNAMIC_MEDIUM_CAMP_LEGENDARY",
+        "Item": {
+          "@type": "T4_SILVERBAG_NONTRADABLE",
+          "@chance": "10.483581",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "FRAGMENT_LOOT_10X",
+            "@chance": "35.157072"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.019505"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.320715"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "4.368158"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "943.227059"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "229.53213"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "37.877408"
+          }
+        ]
+      },
+      {
         "@name": "T5_DYNAMIC_MEDIUM_CAMP_LEGENDARY",
         "Item": {
           "@type": "T4_SILVERBAG_NONTRADABLE",
@@ -116053,6 +116541,45 @@
           {
             "@name": "T8_DIRECTLOOTDROP_WHITE",
             "@chance": "39.49893"
+          }
+        ]
+      },
+      {
+        "@name": "T4_DYNAMIC_SMALL_CAMP_UNCOMMON",
+        "Item": {
+          "@type": "T1_SILVERBAG_NONTRADABLE",
+          "@chance": "5.001763",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "T4_FRAGMENT_LOOT",
+            "@chance": "16.773601"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.000933"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.015299"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "0.208404"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "31.819937"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "7.743307"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "1.277801"
           }
         ]
       },
@@ -116229,6 +116756,45 @@
         ]
       },
       {
+        "@name": "T4_DYNAMIC_SMALL_CAMP_RARE",
+        "Item": {
+          "@type": "T1_SILVERBAG_NONTRADABLE",
+          "@chance": "15.005291",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "FRAGMENT_LOOT_10X",
+            "@chance": "5.032079"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.002791"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.045904"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "0.625224"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "95.459834"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "23.22993"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "3.833404"
+          }
+        ]
+      },
+      {
         "@name": "T5_DYNAMIC_SMALL_CAMP_RARE",
         "Item": {
           "@type": "T1_SILVERBAG_NONTRADABLE",
@@ -116397,6 +116963,45 @@
           {
             "@name": "T8_DIRECTLOOTDROP_WHITE",
             "@chance": "5.653537"
+          }
+        ]
+      },
+      {
+        "@name": "T4_DYNAMIC_SMALL_CAMP_LEGENDARY",
+        "Item": {
+          "@type": "T4_SILVERBAG_NONTRADABLE",
+          "@chance": "4.001521",
+          "@scalewithgoldeconomy": "true",
+          "@ignoreforactivitychest": "true"
+        },
+        "LootListReference": [
+          {
+            "@name": "FRAGMENT_LOOT_10X",
+            "@chance": "13.419239"
+          },
+          {
+            "@name": "T4_LOOT_EXPEDITION_TOKEN",
+            "@chance": "0.007444"
+          },
+          {
+            "@name": "T4_LOOT_RD_TOKEN",
+            "@chance": "0.122413"
+          },
+          {
+            "@name": "TREASURES_STANDARD_LOOT",
+            "@chance": "1.667301"
+          },
+          {
+            "@name": "T4_DIRECTLOOTDROP_WHITE",
+            "@chance": "254.566458"
+          },
+          {
+            "@name": "T5_DIRECTLOOTDROP_WHITE",
+            "@chance": "61.948161"
+          },
+          {
+            "@name": "T6_DIRECTLOOTDROP_WHITE",
+            "@chance": "10.22269"
           }
         ]
       },
@@ -119576,6 +120181,76 @@
         }
       },
       {
+        "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S22",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S23",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S24",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S25",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S26",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S27",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S28",
+              "@weight": "9"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S22",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S23",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S24",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S25",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S26",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S27",
+              "@weight": "2"
+            },
+            {
+              "@name": "CRYSTAL_WEAPON_ARTEFACTS_S28",
+              "@weight": "2"
+            }
+          ]
+        }
+      },
+      {
         "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S26",
         "LootListReference": [
           {
@@ -119724,6 +120399,158 @@
           {
             "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S27",
             "@chance": "1.8919"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_BRONZE_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "10.8505",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+            "@chance": "0.41"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_SILVER_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "18.9885",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+            "@chance": "0.7174"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_GOLD_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "32.5516",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+            "@chance": "1.23"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_CRYSTAL_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "55.3373",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+            "@chance": "2.091"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_BRONZE_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "12.5198",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+            "@chance": "0.41"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_SILVER_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "21.9098",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+            "@chance": "0.7174"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_GOLD_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "37.5596",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+            "@chance": "1.23"
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SHORT_SEASON_LOOT_CRYSTAL_BASE",
+            "@chance": "1",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_CRYSTAL_SHARDS",
+            "@chance": "63.8508",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+            "@chance": "2.091"
           }
         ]
       },
@@ -122183,6 +123010,2466 @@
         "@name": "CONQUEROR_SEASON_SMALL_IRON_REST_LOOT_S27",
         "LootListReference": {
           "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S27",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_1_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "14.5588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "9.8187"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "994"
+            },
+            {
+              "@name": "BATTLEMOUNTS_CRYSTAL",
+              "@weight": "6"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_2_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "13.3235",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "8.9856"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "924"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "76"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_3_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "12.1765",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "8.2121"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "842"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "158"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_5_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "11.1176",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "7.4979"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "766"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "234"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_10_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "10.0588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "6.7838"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "690"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "310"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_REST_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "9",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "6.0698"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "615"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "385"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_10_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "13.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "4.5523"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "530"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "470"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_25_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "12",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "4.0465"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "466"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "534"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_50_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "10.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.5407"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "402"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "598"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_REST_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "9",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.0349"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "337"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "663"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_25_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "12.8571",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "297"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "703",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_75_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "11.5714",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "266"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "734",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_150_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "10.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "234"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "766",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "9",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "203"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "797",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_50_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "13.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_125_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "12.6",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_250_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "11.7",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_500_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "10.8",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "9.9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_IRON_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_1_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "4.8529",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.2729"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "318"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "682"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_2_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "4.4412",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.9952"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "289"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "711"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_3_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "4.0588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.7373"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "261"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "739"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_5_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "3.7059",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.4993"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "236"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "764"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_10_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "3.3529",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.2613"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "211"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "789"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_REST_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "3",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.0233"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "185"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "815"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_10_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "4.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.5174"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "144"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "856"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_25_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "4",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.3488"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "123"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "877"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_50_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "3.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.1802"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "102"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "898"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_REST_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+            "@chance": "3",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.0116"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "80"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "920"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_25_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "4.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "89"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "911",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_75_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "3.8571",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "79"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "921",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_150_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "3.4286",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "69"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "931",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "3",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "58"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "942",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_50_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "4.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_125_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "4.2",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_250_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "3.9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_500_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "3.6",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "3.3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_IRON_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_1_LOOT_S28",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+            "@chance": "1.6176",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.0909"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "87"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+              "@weight": "913"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_2_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+          "@chance": "1.4804",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "77"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "923"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "998"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "2"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_3_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+          "@chance": "1.3529",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "68"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "932"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "903"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "97"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_5_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+          "@chance": "1.2353",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "59"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "941"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "815"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "185"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_10_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+          "@chance": "1.1176",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "51"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "949"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "727"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "273"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S28",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "42"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "958"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "639"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "361"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_10_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+          "@chance": "1.5",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "16"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "984"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "452"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "548"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_25_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+          "@chance": "1.3333",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "9"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "991"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "389"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "611"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_50_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+          "@chance": "1.1667",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "2"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "998"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "327"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "673"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S28",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "1"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_S28",
+                "@weight": "999"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "265"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "735"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_25_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "1.4286",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "20"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "980",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_75_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "1.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "17"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "983",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_150_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "1.1429",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "13"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "987",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S28",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "10"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "990",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_50_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_125_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1.4",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_250_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1.3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_500_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1.2",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1.1",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_IRON_REST_LOOT_S28",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S28",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_1_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "14.5588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "9.8187"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "994"
+            },
+            {
+              "@name": "BATTLEMOUNTS_CRYSTAL",
+              "@weight": "6"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_2_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "13.3235",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "8.9856"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "924"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "76"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_3_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "12.1765",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "8.2121"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "842"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "158"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_5_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "11.1176",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "7.4979"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "766"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "234"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_10_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "10.0588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "6.7838"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "690"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "310"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_CRYSTAL_REST_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "9",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "6.0698"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "615"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "385"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_10_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "13.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "4.5523"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "530"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "470"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_25_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "12",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "4.0465"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "466"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "534"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_50_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "10.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.5407"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "402"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "598"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_GOLD_REST_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "9",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.0349"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "337"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "663"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_25_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "12.8571",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "297"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "703",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_75_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "11.5714",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "266"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "734",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_150_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "10.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "234"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "766",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_SILVER_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "9",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "203"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "797",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_50_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "13.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_125_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "12.6",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_250_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "11.7",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_500_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "10.8",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_BRONZE_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "9.9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_BIG_IRON_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_1_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "4.8529",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "3.2729"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "318"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "682"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_2_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "4.4412",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.9952"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "289"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "711"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_3_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "4.0588",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.7373"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "261"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "739"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_5_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "3.7059",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.4993"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "236"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "764"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_10_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "3.3529",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.2613"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "211"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "789"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_CRYSTAL_REST_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "3",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "2.0233"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "185"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "815"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_10_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "4.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.5174"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "144"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "856"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_25_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "4",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.3488"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "123"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "877"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_50_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "3.5",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.1802"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "102"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "898"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_GOLD_REST_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+            "@chance": "3",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.0116"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+              "@weight": "80"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "920"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_25_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "4.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "89"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "911",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_75_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "3.8571",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "79"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "921",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_150_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "3.4286",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "69"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "931",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_SILVER_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "3",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "58"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "942",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_50_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "4.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_125_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "4.2",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_250_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "3.9",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_500_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "3.6",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_BRONZE_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "3.3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_MEDIUM_IRON_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_1_LOOT_S29",
+        "LootListReference": [
+          {
+            "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+            "@chance": "1.6176",
+            "@evaluateChance": "false"
+          },
+          {
+            "@name": "RANDOM_RARE_MOUNT",
+            "@chance": "1.0909"
+          }
+        ],
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+              "@weight": "87"
+            },
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+              "@weight": "913"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_2_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+          "@chance": "1.4804",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "77"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "923"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "998"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "2"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_3_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+          "@chance": "1.3529",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "68"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "932"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "903"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "97"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_5_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+          "@chance": "1.2353",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "59"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "941"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "815"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "185"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_10_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+          "@chance": "1.1176",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "51"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "949"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "727"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "273"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_CRYSTAL_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_CRYSTAL_S29",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_CRYSTAL",
+                "@weight": "42"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "958"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "639"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "361"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_10_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+          "@chance": "1.5",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "16"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "984"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "452"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "548"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_25_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+          "@chance": "1.3333",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "9"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "991"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "389"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "611"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_50_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+          "@chance": "1.1667",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "2"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "998"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "327"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "673"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_GOLD_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_GOLD_S29",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": [
+          {
+            "LootListReference": [
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_GOLD",
+                "@weight": "1"
+              },
+              {
+                "@name": "LOOT_CONQUERORSCHALLENGE_SEASON_ARTEFACTS_COMPLETE",
+                "@weight": "999"
+              }
+            ]
+          },
+          {
+            "LootListReference": {
+              "@name": "RANDOM_RARE_MOUNT",
+              "@weight": "265"
+            },
+            "Item": {
+              "@type": "T5_FARM_COUGAR_BABY",
+              "@weight": "735"
+            }
+          }
+        ]
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_25_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "1.4286",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "20"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "980",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_75_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "1.2857",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "17"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "983",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_150_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "1.1429",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "13"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "987",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_SILVER_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_SILVER_S29",
+          "@chance": "1",
+          "@evaluateChance": "false"
+        },
+        "OR": {
+          "LootListReference": [
+            {
+              "@name": "LOOT_CONQUERORSCHALLENGE_BATTLEMOUNTS_SILVER",
+              "@weight": "10"
+            },
+            {
+              "@name": "CONQUEROR_SEASON_RESOURCES_SILVER",
+              "@weight": "990",
+              "@evaluateChance": "false"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_50_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "1.5",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_125_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "1.4",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_250_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "1.3",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_500_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "1.2",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_BRONZE_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
+          "@chance": "1.1",
+          "@evaluateChance": "false"
+        }
+      },
+      {
+        "@name": "CONQUEROR_SEASON_SMALL_IRON_REST_LOOT_S29",
+        "LootListReference": {
+          "@name": "CONQUEROR_SEASON_LOOT_BRONZE_S29",
           "@chance": "1",
           "@evaluateChance": "false"
         }
