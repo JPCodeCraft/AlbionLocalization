@@ -5,7 +5,7 @@ from typing import Dict, List, Union, Any
 EXCLUDE_ITEMS = ["@xmlns:xsi", "@xsi:noNamespaceSchemaLocation", "crystalleagueitem"]
 
 KEEP_FIELDS = [
-    "@uniquename", "@shopcategory", "@shopsubcategory1", "@shopsubcategory2", "@shopsubcategory3", "@craftingcategory", "@resourcetype",
+    "@uniquename", "@namelocatag", "@shopcategory", "@shopsubcategory1", "@shopsubcategory2", "@shopsubcategory3", "@craftingcategory", "@resourcetype",
     "@baselootamount", "@famevalue", "@itemvalue", "@tier", "@weight", "@durability",
     "@enchantmentlevel", "craftingrequirements", "@destinycraftfamefactor", "famefillingmissions",
     "lootlist", "@maxfame", "enchantments", "@itempower", "@combatspecachievement",
