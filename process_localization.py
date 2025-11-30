@@ -3,7 +3,7 @@ def process_localization(data):
     items = [
         {**item, '@tuid': item['@tuid'].replace('@', '')}
         for item in data['tmx']['body']['tu']
-        if item['@tuid'].startswith('@ITEMS_') and not item['@tuid'].endswith('_DESC')
+        if (item['@tuid'].startswith('@ITEMS_') and not item['@tuid'].endswith('_DESC')) or item['@tuid'] == '@EXPEDITION_TOKEN'
     ]
 
     # Process shop categories
