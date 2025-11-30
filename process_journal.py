@@ -24,7 +24,7 @@ SUBCATEGORY_FIELDS = [
 ]
 
 ACHIEVEMENT_FIELDS = [
-    "@name", "@rewarditem", "@difficultyrating", "@rewardamount"
+    "@name", "@rewarditem", "@difficultyrating", "@rewardamount", "@absoluteprogressmax"
 ]
 
 
