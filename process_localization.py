@@ -1,7 +1,7 @@
 def process_localization(data):
     # Process items
     items = [
-        {**item, '@tuid': item['@tuid'].replace('@', '')}
+        {**item, '@tuid': ('ITEMS_' + item['@tuid'].replace('@', '')) if item['@tuid'] == '@EXPEDITION_TOKEN' else item['@tuid'].replace('@', '')}
         for item in data['tmx']['body']['tu']
         if (item['@tuid'].startswith('@ITEMS_') and not item['@tuid'].endswith('_DESC')) or item['@tuid'] == '@EXPEDITION_TOKEN'
     ]
