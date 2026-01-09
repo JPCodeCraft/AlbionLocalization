@@ -5,7 +5,11 @@ from typing import Dict, List, Union, Any
 EXCLUDE_ITEMS = ["@xmlns:xsi", "@xsi:noNamespaceSchemaLocation", "colortag"]
 
 KEEP_FIELDS = [
-    "@uniquename", "@castingtime", "@recastdelay", "@namelocatag"
+    "@uniquename",
+    "@castingtime",
+    "@recastdelay",
+    "@namelocatag",
+    "@descriptionlocatag",
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:
@@ -15,11 +19,11 @@ def ensure_array(value: Union[Dict, List]) -> List:
     return value
 
 def filter_fields(item: Dict) -> Dict:
-    """Keep only the specified fields in an item, and remove @ from the value of @namelocatag."""
+    """Keep only the specified fields in an item, and remove @ from some locatag values."""
     result = {}
     for k, v in item.items():
         if k in KEEP_FIELDS:
-            if k == "@namelocatag" and isinstance(v, str) and v.startswith("@SPELLS_"):
+            if k in {"@namelocatag", "@descriptionlocatag"} and isinstance(v, str) and v.startswith("@SPELLS_"):
                 result[k] = v[8:]
             else:
                 result[k] = v

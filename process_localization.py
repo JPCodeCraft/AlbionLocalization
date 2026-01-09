@@ -1,3 +1,37 @@
+import re
+
+
+def _clean_spell_desc_seg(seg):
+    if not isinstance(seg, str):
+        return seg
+    def _replace_tag(match):
+        tag = match.group(0)
+        if tag.startswith("[/"):
+            return "</strong>"
+        return "<strong>"
+
+    seg = re.sub(r"\[/?[^\]]+\]", _replace_tag, seg)
+    # Replace unknown value placeholders like $foo$ or $$BAR$ with a simple marker.
+    seg = re.sub(r"\$\$?[^$]+\$", "?", seg)
+    seg = seg.replace("\n", "<br>")
+    return seg
+
+
+def _clean_spell_desc_item(item):
+    if not item.get("@tuid", "").endswith("_DESC"):
+        return item
+    tuv_list = item.get("tuv", [])
+    if not isinstance(tuv_list, list):
+        return item
+    cleaned_tuv = []
+    for tuv in tuv_list:
+        if isinstance(tuv, dict) and "seg" in tuv:
+            cleaned_tuv.append({**tuv, "seg": _clean_spell_desc_seg(tuv["seg"])})
+        else:
+            cleaned_tuv.append(tuv)
+    return {**item, "tuv": cleaned_tuv}
+
+
 def process_localization(data):
     # Process items
     items = [
@@ -29,9 +63,9 @@ def process_localization(data):
 
     # Process spell entries
     spell_entries = [
-        {**item, '@tuid': item['@tuid'].replace('@', '')}
+        _clean_spell_desc_item({**item, '@tuid': item['@tuid'].replace('@', '')})
         for item in data['tmx']['body']['tu']
-        if item['@tuid'].startswith('@SPELLS_') and not item['@tuid'].endswith('_DESC')
+        if item['@tuid'].startswith('@SPELLS_')
     ]
 
     # Process journal category and activity entries (e.g., @JOURNAL_CATEGORY_PVE, @JOURNAL_ACTIVITY_EXPEDITION)
