@@ -13,6 +13,8 @@ def _clean_spell_desc_seg(seg):
     seg = re.sub(r"\[/?[^\]]+\]", _replace_tag, seg)
     # Replace unknown value placeholders like $foo$ or $$BAR$ with a simple marker.
     seg = re.sub(r"\$\$?[^$]+\$", "?", seg)
+    # Replace brace placeholders like {foo} or {123} with a simple marker.
+    seg = re.sub(r"\{[^}]+\}", "?", seg)
     seg = seg.replace("\n", "<br>")
     return seg
 
