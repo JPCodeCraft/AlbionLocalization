@@ -10,6 +10,11 @@ KEEP_FIELDS = [
     "@recastdelay",
     "@namelocatag",
     "@descriptionlocatag",
+    "@energyusage",
+    "@castrange",
+    "@hitdelay",
+    "@standtime",
+    "@target"
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:
