@@ -15,7 +15,8 @@ KEEP_FIELDS = [
     "@hitdelay",
     "@standtime",
     "@target",
-    "@energyusageisrelative"
+    "@energyusageisrelative",
+    "buffovertime"
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:
