@@ -13,7 +13,7 @@ KEEP_FIELDS = [
     "@placefame", "@kind", "@activefarmfocuscost", "@activefarmmaxcycles",
     "@activefarmactiondurationseconds", "@activefarmcyclelengthseconds", "@activefarmbonus",
     "grownitem", "consumption", "products", "@unlockedtoplace", "@unlockedtocraft", "craftingspelllist", "mountspelllist", "@transformation", "@masterymodifier",
-    "@consumespell"
+    "@consumespell", "@maxstacksize"
 ]
 
 def ensure_array(value: Union[Dict, List]) -> List:
