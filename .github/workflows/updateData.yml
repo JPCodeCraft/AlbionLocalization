@@ -52,6 +52,10 @@ jobs:
         run: |
           curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/albionjournal.json
 
+      - name: Download mobs.xml from original repo
+        run: |
+          curl -O https://raw.githubusercontent.com/ao-data/ao-bin-dumps/master/mobs.xml
+
       - name: Check for Changes in localization.json
         run: |
           CHANGED_LOC_FILES=$(diff localization.json AlbionLocalization/localization.json || true)
@@ -96,6 +100,12 @@ jobs:
             echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
           fi
 
+      - name: Check for Changes in mobs.xml
+        run: |
+          if [ ! -f AlbionLocalization/mobs.xml ] || ! cmp -s mobs.xml AlbionLocalization/mobs.xml; then
+            echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
+          fi
+
       - name: Set CHANGES_DETECTED true if manual start
         run: echo "CHANGES_DETECTED=true" >> $GITHUB_ENV
         if: github.event_name == 'workflow_dispatch'
@@ -130,6 +140,11 @@ jobs:
         run: |
           mv albionjournal.json AlbionLocalization/albionjournal.json
 
+      - name: Move downloaded mobs.xml to AlbionLocalization
+        if: env.CHANGES_DETECTED == 'true'
+        run: |
+          mv mobs.xml AlbionLocalization/mobs.xml
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -140,6 +155,7 @@ jobs:
         run: |
           cd AlbionLocalization
           python process.py
+          python process_mobs.py mobs.xml
 
       - name: Commit and Push to AlbionLocalization Repo
         if: env.CHANGES_DETECTED == 'true'
