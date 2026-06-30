@@ -34,6 +34,12 @@ def filter_fields(item: Dict) -> Dict:
                 result[k] = v[8:]
             else:
                 result[k] = v
+
+    unique_name = item.get("@uniquename", "")
+    if isinstance(unique_name, str) and unique_name.startswith("PASSIVE_TRAIT_"):
+        for effect_name in ("buff", "healonhitpassive"):
+            if effect_name in item:
+                result[effect_name] = item[effect_name]
     return result
 
 def process_spells(data: Dict) -> List[Dict]:
