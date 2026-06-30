@@ -86,5 +86,29 @@ def process_localization(data):
         and (item['@tuid'].startswith('@SA_') or item['@tuid'].startswith('@JOURNAL_'))
     ]
 
+    # Process legendary item entries. Item names are already included by the
+    # @ITEMS_ filter above. Traits can either provide their own @TRAIT_ or
+    # @TRAITS_ name, or inherit a standard @ITEMDETAILS_STATS_ label from the
+    # attribute modified by their spell.
+    legendary_items = [
+        {**item, '@tuid': item['@tuid'].replace('@', '')}
+        for item in data['tmx']['body']['tu']
+        if item['@tuid'].startswith((
+            '@TRAIT_',
+            '@TRAITS_',
+            '@ITEMDETAILS_STATS_',
+            '@ITEMDETAILS_LEGENDARY_ITEM_',
+            '@AWAKEN_',
+            '@AWAKENED_',
+            '@AWAKENLEGENDARYITEM_',
+            '@AWAKENLEGENARYITEM_',
+            '@BUILDINGUSAGE_AWAKENEDITEMS_',
+            '@LEGENDARY_ITEM_EVENT_HISTORY_',
+            '@CHAT_AWAKENED_ITEM_',
+            '@CHAT_LEGENDARY_ITEM_',
+            '@ASSET_OVERVIEW_LEGENDARY_ITEM_',
+        ))
+    ]
+
     # Combine all processed entries
-    return items + shop_categories + shop_subcategories + destiny_board + spell_entries + journal_categories + journal_achievements
+    return items + shop_categories + shop_subcategories + destiny_board + spell_entries + journal_categories + journal_achievements + legendary_items
