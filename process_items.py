@@ -7,7 +7,7 @@ EXCLUDE_ITEMS = ["@xmlns:xsi", "@xsi:noNamespaceSchemaLocation", "crystalleaguei
 KEEP_FIELDS = [
     '@dontgivefameoncraft',
     "@uniquename", "@abilitypower", "@namelocatag", "@uisprite", "@shopcategory", "@shopsubcategory1", "@shopsubcategory2", "@shopsubcategory3", "@craftingcategory", "@resourcetype",
-    "@baselootamount", "@famevalue", "@itemvalue", "@tier", "@weight", "@durability",
+    "@baselootamount", "@famevalue", "@itemvalue", "@tier", "@weight", "@fasttravelfactor", "@durability",
     "@enchantmentlevel", "craftingrequirements", "@destinycraftfamefactor", "famefillingmissions",
     "lootlist", "@maxfame", "enchantments", "@itempower", "@combatspecachievement",
     "@maxqualitylevel", "@slottype", "harvest", "@foodcategory", "@nutrition", "@twohanded", "@showinmarketplace",
