@@ -1,5 +1,5 @@
 import json
-from process_items import process_items
+from process_items import add_black_market_enchantments, process_items
 from process_localization import process_localization
 from process_spells import process_spells
 from process_journal import process_journal
@@ -64,6 +64,9 @@ with open("loot.json", "r", encoding="utf-8") as file:
 # Load processed_items.json
 with open("processed_items.json", "r", encoding="utf-8") as file:
     items = json.load(file)
+
+# Add the exact enchantment levels that can be sold to the Black Market.
+add_black_market_enchantments(items, loot)
     
 # For each item that has the property ['harvest']['@lootlist'], add the loot to the item
 def find_loot_by_name(loot_data, loot_name):
